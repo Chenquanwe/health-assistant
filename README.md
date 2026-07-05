@@ -82,31 +82,13 @@
 
 ---
 
-## API Key 获取方式
-
-### 必需密钥
-
-| 密钥 | 获取地址 | 用途 |
-|------|---------|------|
-| **DASHSCOPE_API_KEY** | [阿里云 DashScope 官网](https://dashscope.aliyun.com/) | LLM 推理、Embedding、TTS |
-| **OPENAI_API_KEY** | 同上（与 DASHSCOPE_API_KEY 相同） | OpenAI 兼容模式调用 |
-
-### 可选密钥
-
-| 密钥 | 获取地址 | 用途 |
-|------|---------|------|
-| **LANGSMITH_API_KEY** | [LangSmith 官网](https://smith.langchain.com/) | 追踪 Agent 执行过程 |
-| **OCR_SPACE_API_KEY** | [OCR.space](https://ocr.space/) | 图片文字识别（备用） |
-
----
-
 ## 快速开始
 
 ### 前置要求
 
 - **Docker 部署**：需要安装 Docker Desktop（或 Docker Engine + Docker Compose）
 - **本地手动部署**：需要安装 Python 3.11+、Node.js 18+、PostgreSQL 16（并启用 pgvector 扩展）
-- **API Key**：需提前注册阿里云 DashScope 并获取 API Key（链接见"API Key 获取方式"）
+- **API Key**：提前准备好 LLM 服务的 API Key（如阿里云 DashScope，或任何兼容 OpenAI 接口的服务）
 
 ### 方式一：Docker 部署（推荐）
 
@@ -115,9 +97,22 @@
 git clone <repository-url>
 cd health-assistant
 
-# 2. 复制配置文件并填写密钥
+# 2. 配置环境变量
 cp backend/.env.example backend/.env
-# 编辑 backend/.env，填写你的 API 密钥
+
+# 编辑 backend/.env，填写以下必填项：
+#   DASHSCOPE_API_KEY=你的阿里云API密钥（从 `https://dashscope.aliyun.com` 获取）
+#   OPENAI_API_KEY=与 DASHSCOPE_API_KEY 相同
+#   OPENAI_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+#   LLM_MODEL=qwen-plus
+#
+# 说明：本项目兼容 OpenAI 接口，如果你不想用阿里云 DashScope，
+# 只需将 OPENAI_BASE_URL 改为其他服务地址（如 DeepSeek、One API），
+# 并填写对应的 OPENAI_API_KEY 和模型名称即可。
+#
+# 可选配置（不填也不影响核心功能）：
+#   LANGSMITH_API_KEY=你的LangSmith密钥（追踪 Agent 执行过程）
+#   OCR_SPACE_API_KEY=你的OCR.space密钥（备用图片识别）
 ```
 
 > ⚠️ 必须修改 .env 中的 API Key，否则服务无法正常使用
@@ -152,8 +147,8 @@ pip install -r requirements.txt
 # 1. 创建数据库: health_agent
 # 2. 安装 pgvector 扩展
 
-# 复制配置文件并填写密钥
 cp .env.example .env
+# 编辑 .env，填写必填项（同上，参考 Docker 部署中的详细说明）
 
 # 启动服务
 python main.py api

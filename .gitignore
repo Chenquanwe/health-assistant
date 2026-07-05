@@ -35,7 +35,7 @@ test_data/
 # ================ 临时文件 ================
 1.md
 2.md
-
+md/
 # ================ 废弃的测试/调试脚本 ================
 backend/test_*.py
 backend/debug_messages.py
