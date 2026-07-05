@@ -1,0 +1,93 @@
+{
+  "symptom": "记忆力减退",
+  "department": "神经内科",
+  "must_ask": [
+    {
+      "dimension": "记忆类型",
+      "question": "是记不住新事情，还是忘记以前的事？"
+    },
+    {
+      "dimension": "起病方式",
+      "question": "是突然出现的还是逐渐加重的？"
+    },
+    {
+      "dimension": "严重程度",
+      "question": "对日常生活有影响吗？比如忘记关火、迷路？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有性格改变、情绪变化、语言障碍？"
+    },
+    {
+      "dimension": "年龄因素",
+      "question": "今年多大年纪了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有高血压、糖尿病、脑血管病史吗？"
+    },
+    {
+      "dimension": "家族史",
+      "question": "家人中有老年痴呆的吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近在吃什么药？"
+    }
+  ],
+  "red_flags": [
+    "短期内记忆力明显下降",
+    "记忆力减退伴性格改变",
+    "记忆力减退伴定向力障碍",
+    "记忆力减退伴语言障碍"
+  ],
+  "related_diseases": [
+    {
+      "disease": "阿尔茨海默病",
+      "key_features": [
+        "隐匿起病",
+        "进行性加重",
+        "近记忆先受累",
+        "老年多见"
+      ]
+    },
+    {
+      "disease": "血管性痴呆",
+      "key_features": [
+        "卒中病史",
+        "阶梯式加重",
+        "可伴偏瘫",
+        "高血压多见"
+      ]
+    },
+    {
+      "disease": "正常压力脑积水",
+      "key_features": [
+        "步态障碍",
+        "尿失禁",
+        "认知障碍",
+        "三联征"
+      ]
+    },
+    {
+      "disease": "抑郁症相关认知障碍",
+      "key_features": [
+        "情绪低落",
+        "注意力下降",
+        "假性痴呆",
+        "抗抑郁有效"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_mood_change": "最近情绪怎么样？有没有心情低落？",
+    "with_gait_change": "走路有变化吗？有没有容易摔倒？",
+    "with_urinary_change": "有没有尿失禁的情况？"
+  },
+  "emergency_criteria": [
+    "突发记忆力丧失",
+    "记忆力减退伴急性意识模糊"
+  ]
+}

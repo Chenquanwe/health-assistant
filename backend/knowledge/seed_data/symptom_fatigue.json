@@ -1,0 +1,94 @@
+{
+  "symptom": "乏力",
+  "department": "全科",
+  "must_ask": [
+    {
+      "dimension": "程度",
+      "question": "乏力到什么程度？影响工作生活吗？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "乏力持续多长时间了？"
+    },
+    {
+      "dimension": "时间规律",
+      "question": "什么时候乏力明显？早晨、下午还是晚上？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有发热、消瘦、食欲下降、心悸、气短？"
+    },
+    {
+      "dimension": "睡眠情况",
+      "question": "睡眠怎么样？睡醒后感觉解乏吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有贫血、甲减、糖尿病、心脏病、肝肾疾病史吗？"
+    },
+    {
+      "dimension": "精神因素",
+      "question": "最近压力大吗？情绪怎么样？"
+    },
+    {
+      "dimension": "生活习惯",
+      "question": "作息规律吗？运动多吗？饮食均衡吗？"
+    }
+  ],
+  "red_flags": [
+    "乏力伴进行性消瘦",
+    "乏力伴发热",
+    "乏力伴出血倾向",
+    "乏力伴意识障碍"
+  ],
+  "related_diseases": [
+    {
+      "disease": "贫血",
+      "key_features": [
+        "乏力",
+        "面色苍白",
+        "头晕",
+        "心悸"
+      ]
+    },
+    {
+      "disease": "甲状腺功能减退",
+      "key_features": [
+        "乏力",
+        "怕冷",
+        "体重增加",
+        "反应迟钝"
+      ]
+    },
+    {
+      "disease": "慢性疲劳综合征",
+      "key_features": [
+        "持续疲劳",
+        "休息不缓解",
+        "伴肌肉痛",
+        "排除器质性病变"
+      ]
+    },
+    {
+      "disease": "抑郁症",
+      "key_features": [
+        "乏力",
+        "情绪低落",
+        "兴趣减退",
+        "睡眠障碍"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_weight_loss": "体重有下降吗？",
+    "with_pallor": "面色苍白吗？",
+    "with_mood_change": "情绪有变化吗？"
+  },
+  "emergency_criteria": [
+    "乏力伴严重贫血",
+    "乏力伴心功能不全",
+    "乏力伴严重电解质紊乱"
+  ]
+}

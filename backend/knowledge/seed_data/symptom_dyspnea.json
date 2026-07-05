@@ -1,0 +1,94 @@
+{
+  "symptom": "呼吸困难",
+  "department": "呼吸内科",
+  "must_ask": [
+    {
+      "dimension": "起病方式",
+      "question": "是突然发生的还是逐渐加重的？"
+    },
+    {
+      "dimension": "诱因",
+      "question": "什么情况下会呼吸困难？活动后、躺下时、还是休息时也喘？"
+    },
+    {
+      "dimension": "严重程度",
+      "question": "能平躺吗？说话能成句吗？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有咳嗽、咳痰、胸痛、发热、下肢水肿？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有哮喘、心脏病、慢性肺病病史吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "体位影响",
+      "question": "躺下会加重吗？坐起来会好一点吗？"
+    },
+    {
+      "dimension": "过敏史",
+      "question": "有过敏史吗？最近有没有接触过敏原？"
+    },
+    {
+      "dimension": "吸烟史",
+      "question": "吸烟吗？"
+    }
+  ],
+  "red_flags": [
+    "突发严重呼吸困难",
+    "呼吸困难伴发绀",
+    "呼吸困难伴意识障碍",
+    "呼吸困难伴胸痛"
+  ],
+  "related_diseases": [
+    {
+      "disease": "支气管哮喘",
+      "key_features": [
+        "发作性",
+        "可逆性",
+        "伴喘鸣",
+        "过敏史"
+      ]
+    },
+    {
+      "disease": "慢性阻塞性肺疾病急性加重",
+      "key_features": [
+        "基础肺病",
+        "感染诱发",
+        "咳嗽咳痰加重",
+        "吸烟史"
+      ]
+    },
+    {
+      "disease": "心力衰竭",
+      "key_features": [
+        "端坐呼吸",
+        "夜间阵发性呼吸困难",
+        "下肢水肿",
+        "心脏病基础"
+      ]
+    },
+    {
+      "disease": "气胸",
+      "key_features": [
+        "突发",
+        "胸痛",
+        "患侧呼吸音低",
+        "瘦高体型"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_chest_pain": "有胸痛吗？疼痛性质是什么样的？",
+    "with_edema": "有下肢水肿吗？",
+    "with_heart_disease": "有心脏病病史吗？"
+  },
+  "emergency_criteria": [
+    "突发严重呼吸困难",
+    "呼吸困难伴发绀或意识障碍",
+    "呼吸困难伴血压下降"
+  ]
+}

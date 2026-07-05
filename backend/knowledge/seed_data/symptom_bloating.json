@@ -1,0 +1,94 @@
+{
+  "symptom": "腹胀",
+  "department": "消化内科",
+  "must_ask": [
+    {
+      "dimension": "腹胀部位",
+      "question": "是全腹胀还是上腹或下腹胀？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有腹痛、恶心、呕吐、便秘、腹泻？"
+    },
+    {
+      "dimension": "饮食因素",
+      "question": "腹胀和进食有关吗？吃哪些食物会加重？"
+    },
+    {
+      "dimension": "排气排便",
+      "question": "放屁多吗？排便后腹胀会减轻吗？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "腹胀持续多长时间了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有肝病、消化不良、肠易激综合征病史吗？"
+    },
+    {
+      "dimension": "饮食习惯",
+      "question": "平时吃豆类、奶制品多吗？吃饭快吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用某些药物？"
+    }
+  ],
+  "red_flags": [
+    "腹胀伴停止排便排气",
+    "腹胀伴腹水",
+    "腹胀伴呕血或便血",
+    "腹胀伴体重下降"
+  ],
+  "related_diseases": [
+    {
+      "disease": "功能性消化不良",
+      "key_features": [
+        "上腹胀",
+        "早饱",
+        "嗳气",
+        "恶心"
+      ]
+    },
+    {
+      "disease": "肠梗阻",
+      "key_features": [
+        "腹胀",
+        "腹痛",
+        "呕吐",
+        "停止排便排气"
+      ]
+    },
+    {
+      "disease": "肝硬化腹水",
+      "key_features": [
+        "腹胀",
+        "腹水",
+        "下肢水肿",
+        "肝病史"
+      ]
+    },
+    {
+      "disease": "肠易激综合征",
+      "key_features": [
+        "腹胀",
+        "排便后缓解",
+        "腹泻便秘交替",
+        "情绪相关"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_ascites": "肚子有水吗？腹围增加了吗？",
+    "with_constipation": "有便秘吗？",
+    "with_liver_disease": "有肝病病史吗？"
+  },
+  "emergency_criteria": [
+    "腹胀伴肠梗阻表现",
+    "腹胀伴大量腹水",
+    "腹胀伴消化道出血"
+  ]
+}

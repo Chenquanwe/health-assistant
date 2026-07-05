@@ -1,0 +1,93 @@
+{
+  "symptom": "多尿",
+  "department": "内分泌科",
+  "must_ask": [
+    {
+      "dimension": "尿量",
+      "question": "每天尿量大概多少？每天排尿几次？"
+    },
+    {
+      "dimension": "夜尿",
+      "question": "夜间排尿几次？夜尿量多吗？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有多饮、口渴、消瘦？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "多尿持续多长时间了？"
+    },
+    {
+      "dimension": "尿液性状",
+      "question": "尿颜色正常吗？尿量多还是尿频但每次量少？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有糖尿病、尿崩症、慢性肾病病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用利尿剂？"
+    },
+    {
+      "dimension": "饮水情况",
+      "question": "平时喝水多吗？"
+    }
+  ],
+  "red_flags": [
+    "多尿伴明显消瘦",
+    "多尿伴意识障碍",
+    "多尿伴严重脱水",
+    "突发多尿"
+  ],
+  "related_diseases": [
+    {
+      "disease": "糖尿病",
+      "key_features": [
+        "多尿",
+        "多饮",
+        "多食",
+        "消瘦"
+      ]
+    },
+    {
+      "disease": "尿崩症",
+      "key_features": [
+        "大量低比重尿",
+        "多饮",
+        "限水无效",
+        "抗利尿激素缺乏"
+      ]
+    },
+    {
+      "disease": "慢性肾脏病",
+      "key_features": [
+        "夜尿增多",
+        "低比重尿",
+        "肾功能异常",
+        "可伴水肿"
+      ]
+    },
+    {
+      "disease": "精神性多尿",
+      "key_features": [
+        "多尿",
+        "多饮",
+        "情绪相关",
+        "限水后尿量减少"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_polydipsia": "喝水多吗？",
+    "with_weight_loss": "体重有下降吗？",
+    "with_nocturia": "夜间排尿几次？"
+  },
+  "emergency_criteria": [
+    "多尿伴严重电解质紊乱",
+    "多尿伴脱水休克"
+  ]
+}

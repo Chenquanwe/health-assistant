@@ -1,0 +1,93 @@
+{
+  "symptom": "尿频",
+  "department": "泌尿外科",
+  "must_ask": [
+    {
+      "dimension": "排尿次数",
+      "question": "白天排尿几次？夜间排尿几次？"
+    },
+    {
+      "dimension": "每次尿量",
+      "question": "每次尿量多还是少？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有尿急、尿痛、尿不尽感？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下尿频加重？紧张、寒冷、饮水多？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "尿频持续多长时间了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有前列腺增生、糖尿病、尿路感染病史吗？"
+    },
+    {
+      "dimension": "饮水情况",
+      "question": "平时喝水多吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用利尿剂？"
+    }
+  ],
+  "red_flags": [
+    "尿频伴发热",
+    "尿频伴血尿",
+    "尿频伴腰痛",
+    "尿频伴排尿困难"
+  ],
+  "related_diseases": [
+    {
+      "disease": "尿路感染",
+      "key_features": [
+        "尿频",
+        "尿急",
+        "尿痛",
+        "可伴发热"
+      ]
+    },
+    {
+      "disease": "前列腺增生",
+      "key_features": [
+        "夜尿增多",
+        "排尿困难",
+        "尿线变细",
+        "老年男性"
+      ]
+    },
+    {
+      "disease": "糖尿病",
+      "key_features": [
+        "多尿",
+        "多饮",
+        "消瘦",
+        "血糖升高"
+      ]
+    },
+    {
+      "disease": "膀胱过度活动症",
+      "key_features": [
+        "尿急",
+        "尿频",
+        "无感染证据",
+        "排除其他原因"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_dysuria": "排尿有疼痛吗？",
+    "with_hematuria": "尿里有血吗？",
+    "with_fever": "有发热吗？"
+  },
+  "emergency_criteria": [
+    "尿频伴高热和腰痛（急性肾盂肾炎）",
+    "尿频伴急性尿潴留"
+  ]
+}

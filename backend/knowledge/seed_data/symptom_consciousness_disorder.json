@@ -1,0 +1,90 @@
+{
+  "symptom": "意识障碍",
+  "department": "急诊科",
+  "must_ask": [
+    {
+      "dimension": "意识程度",
+      "question": "能叫醒吗？对言语有反应吗？"
+    },
+    {
+      "dimension": "起病方式",
+      "question": "是突然发生的还是逐渐加重的？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "意识障碍持续多长时间了？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有抽搐、呕吐、发热、外伤？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有糖尿病、心脏病、肝病、肾病吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用安眠药、抗抑郁药或其他药物？"
+    },
+    {
+      "dimension": "环境因素",
+      "question": "有没有接触煤气、化学品？"
+    }
+  ],
+  "red_flags": [
+    "突发意识障碍",
+    "意识障碍伴瞳孔不等大",
+    "意识障碍伴呼吸异常",
+    "意识障碍伴颈项强直"
+  ],
+  "related_diseases": [
+    {
+      "disease": "脑卒中",
+      "key_features": [
+        "突发",
+        "可伴偏瘫",
+        "可伴言语障碍",
+        "高血压多见"
+      ]
+    },
+    {
+      "disease": "低血糖",
+      "key_features": [
+        "出汗",
+        "心悸",
+        "饥饿感",
+        "进食或输糖后恢复"
+      ]
+    },
+    {
+      "disease": "糖尿病酮症酸中毒",
+      "key_features": [
+        "糖尿病史",
+        "呼吸深快",
+        "烂苹果味",
+        "脱水"
+      ]
+    },
+    {
+      "disease": "肝性脑病",
+      "key_features": [
+        "肝病基础",
+        "性格改变",
+        "扑翼样震颤",
+        "血氨升高"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_diabetes": "有糖尿病吗？最近血糖控制怎么样？",
+    "with_head_trauma": "近期有头部外伤吗？",
+    "with_poison": "有没有接触什么有毒物质或服用过量药物？"
+  },
+  "emergency_criteria": [
+    "任何急性意识障碍需立即就医",
+    "意识障碍伴生命体征不稳定",
+    "意识障碍伴外伤"
+  ]
+}

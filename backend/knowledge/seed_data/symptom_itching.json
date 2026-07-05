@@ -1,0 +1,93 @@
+{
+  "symptom": "瘙痒",
+  "department": "皮肤科",
+  "must_ask": [
+    {
+      "dimension": "瘙痒部位",
+      "question": "哪里痒？全身还是局部？"
+    },
+    {
+      "dimension": "瘙痒程度",
+      "question": "痒得厉害吗？影响睡眠吗？"
+    },
+    {
+      "dimension": "时间规律",
+      "question": "什么时候痒？白天、晚上、遇热、遇冷？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有皮疹、黄疸、皮肤干燥？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下会痒？接触什么、吃什么、情绪变化？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有肝病、肾病、糖尿病、甲亢、皮肤病病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用某些药物？"
+    },
+    {
+      "dimension": "环境因素",
+      "question": "居住环境干燥吗？贴身衣物是什么材质？"
+    }
+  ],
+  "red_flags": [
+    "全身瘙痒伴黄疸",
+    "瘙痒伴明显消瘦",
+    "瘙痒伴贫血",
+    "瘙痒伴淋巴结肿大"
+  ],
+  "related_diseases": [
+    {
+      "disease": "皮肤瘙痒症",
+      "key_features": [
+        "无原发皮损",
+        "瘙痒为主",
+        "搔抓后继发损害",
+        "排除其他原因"
+      ]
+    },
+    {
+      "disease": "胆汁淤积性瘙痒",
+      "key_features": [
+        "全身瘙痒",
+        "黄疸",
+        "肝病基础",
+        "夜间加重"
+      ]
+    },
+    {
+      "disease": "尿毒症性瘙痒",
+      "key_features": [
+        "全身瘙痒",
+        "肾病基础",
+        "透析患者",
+        "顽固性"
+      ]
+    },
+    {
+      "disease": "糖尿病性瘙痒",
+      "key_features": [
+        "外阴瘙痒多见",
+        "糖尿病基础",
+        "血糖控制差",
+        "可伴感染"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_jaundice": "有皮肤或眼睛发黄吗？",
+    "with_dry_skin": "皮肤干燥吗？",
+    "with_systemic_disease": "有肝病、肾病或糖尿病吗？"
+  },
+  "emergency_criteria": [
+    "瘙痒伴严重肝肾功能异常",
+    "瘙痒伴恶性肿瘤"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "symptom": "发热",
+  "department": "感染科",
+  "must_ask": [
+    {
+      "dimension": "体温",
+      "question": "体温多少度？测的腋温、口温还是肛温？"
+    },
+    {
+      "dimension": "热型",
+      "question": "发热是持续的还是有波动？什么时候最高？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "发热持续多长时间了？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有咳嗽、咳痰、腹痛、腹泻、尿频、皮疹？"
+    },
+    {
+      "dimension": "用药情况",
+      "question": "吃过退烧药吗？效果怎么样？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有免疫缺陷、肿瘤、结核病史吗？"
+    },
+    {
+      "dimension": "接触史",
+      "question": "最近有没有接触发热病人、疫区、动物？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用某些药物或使用某些生物制品？"
+    }
+  ],
+  "red_flags": [
+    "高热伴意识障碍",
+    "发热伴休克表现",
+    "发热伴皮疹",
+    "长期不明原因发热"
+  ],
+  "related_diseases": [
+    {
+      "disease": "上呼吸道感染",
+      "key_features": [
+        "发热",
+        "咽痛",
+        "咳嗽",
+        "流涕"
+      ]
+    },
+    {
+      "disease": "肺炎",
+      "key_features": [
+        "发热",
+        "咳嗽",
+        "咳痰",
+        "胸痛"
+      ]
+    },
+    {
+      "disease": "尿路感染",
+      "key_features": [
+        "发热",
+        "尿频",
+        "尿急",
+        "尿痛"
+      ]
+    },
+    {
+      "disease": "结核病",
+      "key_features": [
+        "低热",
+        "盗汗",
+        "消瘦",
+        "午后发热"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_rash": "有皮疹吗？",
+    "with_cough": "有咳嗽吗？",
+    "with_urinary_symptoms": "有尿频、尿急、尿痛吗？"
+  },
+  "emergency_criteria": [
+    "高热伴意识障碍",
+    "发热伴休克",
+    "发热伴严重呼吸困难"
+  ]
+}

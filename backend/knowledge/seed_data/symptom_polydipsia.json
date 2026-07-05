@@ -1,0 +1,93 @@
+{
+  "symptom": "多饮",
+  "department": "内分泌科",
+  "must_ask": [
+    {
+      "dimension": "饮水量",
+      "question": "每天喝多少水？比以前多多少？"
+    },
+    {
+      "dimension": "口渴程度",
+      "question": "是觉得口渴才喝水，还是不渴也想喝？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有多尿、消瘦、乏力？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "多饮持续多长时间了？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下更想喝水？运动、出汗、饮食？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有糖尿病、尿崩症、干燥综合征病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用利尿剂或某些药物？"
+    },
+    {
+      "dimension": "精神因素",
+      "question": "情绪怎么样？有没有焦虑？"
+    }
+  ],
+  "red_flags": [
+    "多饮伴明显消瘦",
+    "多饮伴意识障碍",
+    "多饮伴严重脱水",
+    "突发多饮多尿"
+  ],
+  "related_diseases": [
+    {
+      "disease": "糖尿病",
+      "key_features": [
+        "多饮",
+        "多尿",
+        "多食",
+        "消瘦"
+      ]
+    },
+    {
+      "disease": "尿崩症",
+      "key_features": [
+        "多饮",
+        "多尿",
+        "低比重尿",
+        "抗利尿激素缺乏"
+      ]
+    },
+    {
+      "disease": "干燥综合征",
+      "key_features": [
+        "口干",
+        "眼干",
+        "多饮",
+        "自身免疫病"
+      ]
+    },
+    {
+      "disease": "精神性多饮",
+      "key_features": [
+        "多饮",
+        "无器质病变",
+        "情绪相关",
+        "限水后尿量减少"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_polyuria": "尿量多吗？每天尿几次？",
+    "with_weight_loss": "体重有下降吗？",
+    "with_dry_mouth": "有明显的口干吗？"
+  },
+  "emergency_criteria": [
+    "多饮伴糖尿病酮症酸中毒",
+    "多饮伴高渗性昏迷"
+  ]
+}

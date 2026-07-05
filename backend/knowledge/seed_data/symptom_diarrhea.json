@@ -1,0 +1,94 @@
+{
+  "symptom": "腹泻",
+  "department": "消化内科",
+  "must_ask": [
+    {
+      "dimension": "大便性状",
+      "question": "大便是稀便、水样便、粘液便还是脓血便？"
+    },
+    {
+      "dimension": "腹泻次数",
+      "question": "每天腹泻几次？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "腹泻持续多长时间了？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有发热、腹痛、恶心呕吐、里急后重？"
+    },
+    {
+      "dimension": "诱因",
+      "question": "有没有吃不洁食物、生冷食物？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有炎症性肠病、肠易激综合征病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用抗生素或其他药物？"
+    },
+    {
+      "dimension": "旅行史",
+      "question": "最近有没有外出旅行？"
+    }
+  ],
+  "red_flags": [
+    "腹泻伴高热",
+    "腹泻伴严重脱水",
+    "腹泻伴血便",
+    "慢性腹泻伴体重下降"
+  ],
+  "related_diseases": [
+    {
+      "disease": "急性胃肠炎",
+      "key_features": [
+        "急性起病",
+        "不洁饮食史",
+        "腹泻伴呕吐",
+        "可自限"
+      ]
+    },
+    {
+      "disease": "细菌性痢疾",
+      "key_features": [
+        "发热",
+        "腹痛",
+        "粘液脓血便",
+        "里急后重"
+      ]
+    },
+    {
+      "disease": "炎症性肠病",
+      "key_features": [
+        "慢性腹泻",
+        "血便",
+        "腹痛",
+        "体重下降"
+      ]
+    },
+    {
+      "disease": "肠易激综合征",
+      "key_features": [
+        "腹泻与便秘交替",
+        "情绪相关",
+        "排便后腹痛缓解",
+        "排除器质性病变"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_blood": "大便里有血吗？",
+    "with_fever": "有发热吗？",
+    "with_weight_loss": "最近体重有下降吗？"
+  },
+  "emergency_criteria": [
+    "腹泻伴严重脱水",
+    "腹泻伴高热和血便",
+    "慢性腹泻伴明显消瘦"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "symptom": "牙痛",
+  "department": "口腔科",
+  "must_ask": [
+    {
+      "dimension": "疼痛部位",
+      "question": "哪颗牙痛？能指一下吗？"
+    },
+    {
+      "dimension": "疼痛性质",
+      "question": "是隐痛、刺痛、胀痛还是跳痛？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下会痛？冷热刺激、咬东西、自发痛？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有牙龈肿胀、面部肿胀、发热？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "牙痛持续多长时间了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有龋齿、牙周炎、智齿冠周炎病史吗？"
+    },
+    {
+      "dimension": "口腔卫生",
+      "question": "平时刷牙规律吗？有定期洗牙吗？"
+    },
+    {
+      "dimension": "其他症状",
+      "question": "有没有头痛、耳痛、颈痛？（牵涉痛）"
+    }
+  ],
+  "red_flags": [
+    "牙痛伴面部肿胀发热",
+    "牙痛伴张口受限",
+    "牙痛伴颈部肿胀",
+    "牙痛伴严重出血"
+  ],
+  "related_diseases": [
+    {
+      "disease": "深龋",
+      "key_features": [
+        "冷热刺激痛",
+        "无自发痛",
+        "龋洞",
+        "去刺激后缓解"
+      ]
+    },
+    {
+      "disease": "牙髓炎",
+      "key_features": [
+        "自发痛",
+        "夜间痛",
+        "冷热刺激加重",
+        "不能定位"
+      ]
+    },
+    {
+      "disease": "根尖周炎",
+      "key_features": [
+        "咬合痛",
+        "牙龈肿胀",
+        "可伴发热",
+        "牙髓坏死"
+      ]
+    },
+    {
+      "disease": "智齿冠周炎",
+      "key_features": [
+        "后牙区痛",
+        "张口受限",
+        "面部肿胀",
+        "智齿阻生"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_swelling": "有面部肿胀吗？",
+    "with_fever": "有发热吗？",
+    "with_trismus": "张嘴受限吗？"
+  },
+  "emergency_criteria": [
+    "牙痛伴面部蜂窝织炎",
+    "牙痛伴严重感染扩散"
+  ]
+}

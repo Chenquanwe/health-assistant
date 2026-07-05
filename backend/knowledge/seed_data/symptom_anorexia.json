@@ -1,0 +1,93 @@
+{
+  "symptom": "食欲不振",
+  "department": "消化内科",
+  "must_ask": [
+    {
+      "dimension": "程度",
+      "question": "是完全不想吃还是只是吃得少？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "食欲不振持续多长时间了？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有恶心、呕吐、腹胀、腹痛、发热？"
+    },
+    {
+      "dimension": "体重变化",
+      "question": "最近体重有变化吗？"
+    },
+    {
+      "dimension": "精神因素",
+      "question": "最近情绪怎么样？有没有压力大、心情低落？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有肝病、肾病、肿瘤病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用某些药物？"
+    },
+    {
+      "dimension": "生活习惯",
+      "question": "作息规律吗？运动多吗？"
+    }
+  ],
+  "red_flags": [
+    "食欲不振伴明显消瘦",
+    "食欲不振伴黄疸",
+    "食欲不振伴吞咽困难",
+    "食欲不振伴腹部包块"
+  ],
+  "related_diseases": [
+    {
+      "disease": "慢性胃炎",
+      "key_features": [
+        "食欲不振",
+        "上腹不适",
+        "饱胀感",
+        "可伴反酸"
+      ]
+    },
+    {
+      "disease": "肝炎",
+      "key_features": [
+        "食欲不振",
+        "乏力",
+        "恶心",
+        "可有黄疸"
+      ]
+    },
+    {
+      "disease": "抑郁症",
+      "key_features": [
+        "食欲下降",
+        "情绪低落",
+        "兴趣减退",
+        "睡眠障碍"
+      ]
+    },
+    {
+      "disease": "恶性肿瘤",
+      "key_features": [
+        "食欲不振",
+        "明显消瘦",
+        "乏力",
+        "贫血"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_jaundice": "有皮肤或眼睛发黄吗？",
+    "with_weight_loss": "体重下降明显吗？",
+    "with_mood_change": "情绪有变化吗？"
+  },
+  "emergency_criteria": [
+    "食欲不振伴明显消瘦需排查肿瘤",
+    "食欲不振伴黄疸"
+  ]
+}

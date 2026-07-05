@@ -1,0 +1,94 @@
+{
+  "symptom": "贫血",
+  "department": "血液科",
+  "must_ask": [
+    {
+      "dimension": "贫血表现",
+      "question": "有面色苍白、头晕、乏力、心悸吗？"
+    },
+    {
+      "dimension": "起病方式",
+      "question": "是突然出现的还是逐渐加重的？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有发热、出血、黄疸、骨痛？"
+    },
+    {
+      "dimension": "饮食因素",
+      "question": "平时吃肉、蛋、蔬菜多吗？有挑食吗？"
+    },
+    {
+      "dimension": "出血情况",
+      "question": "有呕血、黑便、月经过多、痔疮出血吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有肾病、肝病、肿瘤、血液病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用某些药物？"
+    },
+    {
+      "dimension": "家族史",
+      "question": "家族中有贫血病史吗？"
+    }
+  ],
+  "red_flags": [
+    "贫血伴发热",
+    "贫血伴出血倾向",
+    "贫血伴肝脾淋巴结肿大",
+    "急性贫血伴休克"
+  ],
+  "related_diseases": [
+    {
+      "disease": "缺铁性贫血",
+      "key_features": [
+        "小细胞低色素",
+        "乏力",
+        "异食癖",
+        "铁剂有效"
+      ]
+    },
+    {
+      "disease": "巨幼细胞贫血",
+      "key_features": [
+        "大细胞性",
+        "舌炎",
+        "神经症状",
+        "B12或叶酸缺乏"
+      ]
+    },
+    {
+      "disease": "再生障碍性贫血",
+      "key_features": [
+        "全血细胞减少",
+        "出血",
+        "感染",
+        "骨髓增生低下"
+      ]
+    },
+    {
+      "disease": "溶血性贫血",
+      "key_features": [
+        "贫血",
+        "黄疸",
+        "脾大",
+        "网织红细胞升高"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_bleeding": "有出血表现吗？",
+    "with_jaundice": "有皮肤发黄吗？",
+    "with_fever": "有发热吗？"
+  },
+  "emergency_criteria": [
+    "重度贫血伴心功能不全",
+    "急性溶血性贫血",
+    "贫血伴严重出血"
+  ]
+}

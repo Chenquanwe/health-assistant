@@ -1,0 +1,93 @@
+{
+  "symptom": "淋巴结肿大",
+  "department": "血液科",
+  "must_ask": [
+    {
+      "dimension": "肿大部位",
+      "question": "淋巴结肿大在哪个部位？颈部、腋窝、腹股沟？"
+    },
+    {
+      "dimension": "单发或多发",
+      "question": "是一个淋巴结肿大还是多个？单侧还是双侧？"
+    },
+    {
+      "dimension": "淋巴结性质",
+      "question": "肿大的淋巴结硬还是软？活动度怎么样？有压痛吗？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有发热、消瘦、盗汗、皮肤瘙痒？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "淋巴结肿大发现多长时间了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "感染史",
+      "question": "近期有感染吗？比如感冒、牙痛、皮肤感染？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有结核、淋巴瘤、白血病病史吗？"
+    },
+    {
+      "dimension": "宠物接触",
+      "question": "有养猫或被猫抓伤过吗？"
+    }
+  ],
+  "red_flags": [
+    "无痛性淋巴结肿大伴发热消瘦",
+    "淋巴结融合成团",
+    "淋巴结质硬固定",
+    "全身多处淋巴结肿大"
+  ],
+  "related_diseases": [
+    {
+      "disease": "反应性淋巴结炎",
+      "key_features": [
+        "有压痛",
+        "活动好",
+        "继发感染",
+        "抗感染后缩小"
+      ]
+    },
+    {
+      "disease": "淋巴结结核",
+      "key_features": [
+        "颈部多见",
+        "可破溃",
+        "低热盗汗",
+        "PPD阳性"
+      ]
+    },
+    {
+      "disease": "恶性淋巴瘤",
+      "key_features": [
+        "无痛性",
+        "进行性增大",
+        "发热消瘦",
+        "质硬活动差"
+      ]
+    },
+    {
+      "disease": "猫抓病",
+      "key_features": [
+        "猫抓史",
+        "局部淋巴结肿大",
+        "可自限",
+        "汉赛巴尔通体"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_fever": "有发热吗？",
+    "with_weight_loss": "体重有下降吗？",
+    "with_night_sweats": "有夜间盗汗吗？"
+  },
+  "emergency_criteria": [
+    "淋巴结肿大伴发热消瘦需排查淋巴瘤",
+    "淋巴结肿大伴全身感染"
+  ]
+}

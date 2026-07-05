@@ -1,0 +1,93 @@
+{
+  "symptom": "白带异常",
+  "department": "妇科",
+  "must_ask": [
+    {
+      "dimension": "白带性状",
+      "question": "白带是什么颜色？量多还是少？有异味吗？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有外阴瘙痒、灼热感、腹痛？"
+    },
+    {
+      "dimension": "性生活",
+      "question": "有性生活吗？性伴侣有症状吗？"
+    },
+    {
+      "dimension": "月经周期",
+      "question": "和月经周期有关吗？排卵期会增多吗？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "白带异常持续多长时间了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有阴道炎、宫颈炎、盆腔炎病史吗？"
+    },
+    {
+      "dimension": "卫生习惯",
+      "question": "平时注意会阴卫生吗？有使用护垫习惯吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有使用阴道冲洗剂或抗生素？"
+    }
+  ],
+  "red_flags": [
+    "白带带血",
+    "血性白带伴恶臭",
+    "水样白带伴下腹痛",
+    "白带异常伴发热"
+  ],
+  "related_diseases": [
+    {
+      "disease": "细菌性阴道病",
+      "key_features": [
+        "灰白色白带",
+        "鱼腥味",
+        "瘙痒轻",
+        "胺试验阳性"
+      ]
+    },
+    {
+      "disease": "念珠菌性阴道炎",
+      "key_features": [
+        "豆渣样白带",
+        "瘙痒明显",
+        "糖尿病多见",
+        "反复发作"
+      ]
+    },
+    {
+      "disease": "滴虫性阴道炎",
+      "key_features": [
+        "泡沫状黄白带",
+        "瘙痒",
+        "性传播",
+        "悬滴法确诊"
+      ]
+    },
+    {
+      "disease": "宫颈炎",
+      "key_features": [
+        "脓性白带",
+        "宫颈充血",
+        "接触性出血",
+        "可伴下腹痛"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_itching": "有外阴瘙痒吗？",
+    "with_fever": "有发热吗？",
+    "with_pain": "有下腹痛吗？"
+  },
+  "emergency_criteria": [
+    "白带异常伴盆腔炎",
+    "血性白带需排查宫颈病变"
+  ]
+}

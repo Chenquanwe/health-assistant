@@ -1,0 +1,93 @@
+{
+  "symptom": "耳鸣",
+  "department": "耳鼻喉科",
+  "must_ask": [
+    {
+      "dimension": "耳鸣性质",
+      "question": "耳鸣是什么声音？嗡嗡声、蝉鸣声、轰鸣声？"
+    },
+    {
+      "dimension": "单耳或双耳",
+      "question": "是一只耳朵还是两只耳朵？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "耳鸣是持续的还是间歇的？持续多长时间了？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有听力下降、头晕、头痛？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下耳鸣会加重？安静环境、疲劳、噪声？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有中耳炎、高血压、颈椎病病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用耳毒性药物（如庆大霉素）？"
+    },
+    {
+      "dimension": "噪声接触",
+      "question": "工作或生活环境有噪声吗？"
+    }
+  ],
+  "red_flags": [
+    "突发耳鸣伴听力下降",
+    "搏动性耳鸣",
+    "耳鸣伴眩晕",
+    "单侧持续性耳鸣"
+  ],
+  "related_diseases": [
+    {
+      "disease": "神经性耳鸣",
+      "key_features": [
+        "蝉鸣样",
+        "持续",
+        "伴听力下降",
+        "中老年多见"
+      ]
+    },
+    {
+      "disease": "突发性耳聋",
+      "key_features": [
+        "突发",
+        "听力下降",
+        "耳鸣",
+        "需紧急治疗"
+      ]
+    },
+    {
+      "disease": "梅尼埃病",
+      "key_features": [
+        "耳鸣",
+        "眩晕",
+        "听力波动",
+        "耳内胀满感"
+      ]
+    },
+    {
+      "disease": "中耳炎",
+      "key_features": [
+        "耳鸣",
+        "耳痛",
+        "流脓",
+        "听力下降"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_hearing_loss": "有听力下降吗？",
+    "with_vertigo": "有头晕或眩晕吗？",
+    "with_pulsatile": "耳鸣和心跳一致吗？"
+  },
+  "emergency_criteria": [
+    "突发耳鸣伴听力丧失",
+    "搏动性耳鸣需排查血管病变"
+  ]
+}

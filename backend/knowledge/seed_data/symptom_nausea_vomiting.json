@@ -1,0 +1,94 @@
+{
+  "symptom": "恶心呕吐",
+  "department": "消化内科",
+  "must_ask": [
+    {
+      "dimension": "呕吐内容",
+      "question": "呕吐物是什么？胃内容物、胆汁还是咖啡渣样？"
+    },
+    {
+      "dimension": "呕吐频率",
+      "question": "呕吐几次了？持续多长时间？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下会呕吐？进食后、晨起、闻到异味？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有腹痛、腹泻、发热、头痛？"
+    },
+    {
+      "dimension": "进食情况",
+      "question": "能进食吗？有没有脱水表现？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有胃病、胆囊疾病、妊娠可能吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用某些药物或化疗？"
+    },
+    {
+      "dimension": "神经系统症状",
+      "question": "有没有头晕、视物旋转？"
+    }
+  ],
+  "red_flags": [
+    "呕吐伴呕血",
+    "呕吐伴剧烈头痛",
+    "呕吐伴意识障碍",
+    "喷射性呕吐"
+  ],
+  "related_diseases": [
+    {
+      "disease": "急性胃肠炎",
+      "key_features": [
+        "恶心呕吐",
+        "腹泻",
+        "不洁饮食史",
+        "可伴发热"
+      ]
+    },
+    {
+      "disease": "肠梗阻",
+      "key_features": [
+        "呕吐",
+        "腹痛",
+        "停止排便排气",
+        "腹胀"
+      ]
+    },
+    {
+      "disease": "颅内压增高",
+      "key_features": [
+        "喷射性呕吐",
+        "头痛",
+        "视乳头水肿",
+        "意识障碍"
+      ]
+    },
+    {
+      "disease": "妊娠反应",
+      "key_features": [
+        "晨起呕吐",
+        "停经",
+        "育龄女性",
+        "HCG阳性"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_pregnancy": "有停经史吗？可能是怀孕吗？",
+    "with_headache": "有头痛吗？",
+    "with_abdominal_pain": "有腹痛吗？"
+  },
+  "emergency_criteria": [
+    "呕吐伴呕血",
+    "喷射性呕吐伴头痛",
+    "呕吐伴脱水或电解质紊乱"
+  ]
+}

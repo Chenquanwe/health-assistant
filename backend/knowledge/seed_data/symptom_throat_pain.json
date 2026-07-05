@@ -1,0 +1,94 @@
+{
+  "symptom": "咽痛",
+  "department": "耳鼻喉科",
+  "must_ask": [
+    {
+      "dimension": "疼痛性质",
+      "question": "咽痛是刺痛、烧灼感还是吞咽时痛？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "咽痛持续多长时间了？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有发热、咳嗽、流涕、声音嘶哑？"
+    },
+    {
+      "dimension": "吞咽情况",
+      "question": "吞咽困难吗？能正常进食吗？"
+    },
+    {
+      "dimension": "局部表现",
+      "question": "照镜子看喉咙，有没有红肿、白点？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有慢性咽炎、扁桃体炎病史吗？"
+    },
+    {
+      "dimension": "环境因素",
+      "question": "最近有没有用嗓过度、吸烟饮酒、吃辛辣？"
+    },
+    {
+      "dimension": "接触史",
+      "question": "家人或同事有类似症状吗？"
+    }
+  ],
+  "red_flags": [
+    "咽痛伴高热",
+    "咽痛伴呼吸困难",
+    "咽痛伴吞咽困难流口水",
+    "咽痛伴颈部肿胀"
+  ],
+  "related_diseases": [
+    {
+      "disease": "急性咽炎",
+      "key_features": [
+        "咽痛",
+        "咽部充血",
+        "可伴发热",
+        "病毒感染多见"
+      ]
+    },
+    {
+      "disease": "急性扁桃体炎",
+      "key_features": [
+        "咽痛剧烈",
+        "扁桃体肿大",
+        "可有脓点",
+        "高热"
+      ]
+    },
+    {
+      "disease": "急性会厌炎",
+      "key_features": [
+        "咽痛剧烈",
+        "吞咽困难",
+        "流口水",
+        "可致窒息"
+      ]
+    },
+    {
+      "disease": "反流性咽喉炎",
+      "key_features": [
+        "咽部异物感",
+        "烧灼感",
+        "反酸",
+        "晨起明显"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_fever": "有发热吗？体温多少？",
+    "with_voice_change": "声音有变化吗？有没有声音嘶哑？",
+    "with_rash": "身上有皮疹吗？"
+  },
+  "emergency_criteria": [
+    "咽痛伴呼吸困难",
+    "咽痛伴吞咽困难无法进食",
+    "咽痛伴颈部明显肿胀"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "symptom": "血尿",
+  "department": "泌尿外科",
+  "must_ask": [
+    {
+      "dimension": "血尿性状",
+      "question": "尿液是洗肉水样、鲜红还是酱油色？"
+    },
+    {
+      "dimension": "出现时间",
+      "question": "排尿开始有血、全程有血还是终末有血？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有尿频、尿急、尿痛、腰痛、发热？"
+    },
+    {
+      "dimension": "血块",
+      "question": "尿里有血块吗？形状是什么样的？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有尿路结石、肿瘤、肾炎病史吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用某些药物（如抗凝药）？"
+    },
+    {
+      "dimension": "外伤史",
+      "question": "近期有腰部或下腹部外伤吗？"
+    },
+    {
+      "dimension": "其他出血",
+      "question": "有其他部位出血吗？"
+    }
+  ],
+  "red_flags": [
+    "无痛性肉眼血尿",
+    "血尿伴腰腹部包块",
+    "血尿伴发热",
+    "血尿伴排尿困难"
+  ],
+  "related_diseases": [
+    {
+      "disease": "尿路感染",
+      "key_features": [
+        "血尿",
+        "尿频尿急尿痛",
+        "发热",
+        "抗感染有效"
+      ]
+    },
+    {
+      "disease": "尿路结石",
+      "key_features": [
+        "血尿",
+        "腰痛",
+        "排尿中断",
+        "B超确诊"
+      ]
+    },
+    {
+      "disease": "膀胱肿瘤",
+      "key_features": [
+        "无痛性血尿",
+        "间歇性",
+        "老年",
+        "吸烟史"
+      ]
+    },
+    {
+      "disease": "肾小球肾炎",
+      "key_features": [
+        "血尿",
+        "蛋白尿",
+        "水肿",
+        "高血压"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_pain": "有腰痛或腹痛吗？",
+    "with_fever": "有发热吗？",
+    "with_weight_loss": "体重有下降吗？"
+  },
+  "emergency_criteria": [
+    "大量血尿伴血块填塞",
+    "血尿伴休克",
+    "血尿伴严重贫血"
+  ]
+}

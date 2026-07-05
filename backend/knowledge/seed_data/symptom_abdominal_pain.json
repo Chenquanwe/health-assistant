@@ -1,0 +1,94 @@
+{
+  "symptom": "腹痛",
+  "department": "消化内科",
+  "must_ask": [
+    {
+      "dimension": "疼痛部位",
+      "question": "腹痛具体在哪个位置？上腹、下腹、脐周还是全腹？"
+    },
+    {
+      "dimension": "疼痛性质",
+      "question": "是隐痛、胀痛、绞痛还是刀割样痛？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "腹痛持续多长时间了？持续性还是阵发性？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有恶心、呕吐、腹泻、发热、便血？"
+    },
+    {
+      "dimension": "缓解因素",
+      "question": "什么情况下会好一点？进食、排便、按压？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有胃溃疡、胆囊结石、胰腺炎病史吗？"
+    },
+    {
+      "dimension": "饮食因素",
+      "question": "腹痛和进食有关吗？餐前痛还是餐后痛？"
+    },
+    {
+      "dimension": "月经因素",
+      "question": "女性患者：腹痛和月经有关吗？"
+    }
+  ],
+  "red_flags": [
+    "突发剧烈腹痛",
+    "腹痛伴腹膜刺激征（压痛、反跳痛、肌紧张）",
+    "腹痛伴休克表现",
+    "腹痛伴呕血或便血"
+  ],
+  "related_diseases": [
+    {
+      "disease": "急性胃炎",
+      "key_features": [
+        "上腹痛",
+        "恶心呕吐",
+        "不洁饮食史",
+        "可伴腹泻"
+      ]
+    },
+    {
+      "disease": "消化性溃疡",
+      "key_features": [
+        "慢性周期性",
+        "节律性疼痛",
+        "空腹痛或餐后痛",
+        "抑酸剂有效"
+      ]
+    },
+    {
+      "disease": "急性阑尾炎",
+      "key_features": [
+        "转移性右下腹痛",
+        "麦氏点压痛",
+        "发热",
+        "白细胞升高"
+      ]
+    },
+    {
+      "disease": "急性胆囊炎",
+      "key_features": [
+        "右上腹痛",
+        "向右肩放射",
+        "发热",
+        "Murphy征阳性"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_jaundice": "有皮肤发黄或眼睛发黄吗？",
+    "with_hematemesis": "有呕血吗？",
+    "with_fever": "有发热吗？"
+  },
+  "emergency_criteria": [
+    "突发剧烈腹痛伴腹膜刺激征",
+    "腹痛伴休克",
+    "腹痛伴呕血或黑便"
+  ]
+}

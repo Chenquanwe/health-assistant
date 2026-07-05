@@ -1,0 +1,93 @@
+{
+  "symptom": "尿痛",
+  "department": "泌尿外科",
+  "must_ask": [
+    {
+      "dimension": "疼痛性质",
+      "question": "尿痛是烧灼样、刺痛还是胀痛？"
+    },
+    {
+      "dimension": "疼痛时间",
+      "question": "排尿开始痛、排尿中痛还是排尿后痛？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有尿频、尿急、发热、腰痛？"
+    },
+    {
+      "dimension": "尿液性状",
+      "question": "尿液颜色正常吗？有浑浊或血尿吗？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "尿痛持续多长时间了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有尿路感染、尿路结石、性传播疾病史吗？"
+    },
+    {
+      "dimension": "性生活",
+      "question": "近期有性生活吗？"
+    },
+    {
+      "dimension": "卫生习惯",
+      "question": "平时喝水多吗？注意会阴卫生吗？"
+    }
+  ],
+  "red_flags": [
+    "尿痛伴发热",
+    "尿痛伴血尿",
+    "尿痛伴腰痛",
+    "尿痛伴尿道分泌物"
+  ],
+  "related_diseases": [
+    {
+      "disease": "急性膀胱炎",
+      "key_features": [
+        "尿频",
+        "尿急",
+        "尿痛",
+        "终末血尿"
+      ]
+    },
+    {
+      "disease": "急性尿道炎",
+      "key_features": [
+        "尿道口疼痛",
+        "尿道分泌物",
+        "不洁性交史",
+        "淋病或非淋"
+      ]
+    },
+    {
+      "disease": "尿路结石",
+      "key_features": [
+        "排尿中断",
+        "放射痛",
+        "血尿",
+        "B超确诊"
+      ]
+    },
+    {
+      "disease": "前列腺炎",
+      "key_features": [
+        "尿痛",
+        "会阴不适",
+        "尿道滴白",
+        "男性"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_discharge": "尿道有分泌物吗？",
+    "with_fever": "有发热吗？",
+    "with_back_pain": "有腰痛吗？"
+  },
+  "emergency_criteria": [
+    "尿痛伴高热（急性肾盂肾炎）",
+    "尿痛伴大量血尿"
+  ]
+}

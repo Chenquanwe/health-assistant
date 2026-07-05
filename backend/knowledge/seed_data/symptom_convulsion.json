@@ -1,0 +1,94 @@
+{
+  "symptom": "抽搐",
+  "department": "神经内科",
+  "must_ask": [
+    {
+      "dimension": "发作形式",
+      "question": "发作时是什么样子？全身抽搐还是局部抽搐？"
+    },
+    {
+      "dimension": "意识状态",
+      "question": "发作时意识清楚吗？有没有呼之不应？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "每次发作持续多长时间？"
+    },
+    {
+      "dimension": "发作频率",
+      "question": "多久发作一次？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有口吐白沫、双眼上翻、舌咬伤、尿失禁？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "以前有过类似发作吗？有癫痫病史吗？"
+    },
+    {
+      "dimension": "诱因",
+      "question": "发作前有没有发热、劳累、情绪激动？"
+    },
+    {
+      "dimension": "家族史",
+      "question": "家人中有类似情况吗？"
+    }
+  ],
+  "red_flags": [
+    "癫痫持续状态（发作超过5分钟或连续发作）",
+    "首次发作伴高热",
+    "发作后意识不恢复",
+    "发作伴剧烈头痛"
+  ],
+  "related_diseases": [
+    {
+      "disease": "癫痫",
+      "key_features": [
+        "反复发作",
+        "形式刻板",
+        "可有先兆",
+        "发作后困倦"
+      ]
+    },
+    {
+      "disease": "高热惊厥",
+      "key_features": [
+        "发热诱发",
+        "儿童多见",
+        "全身性发作",
+        "热退后正常"
+      ]
+    },
+    {
+      "disease": "低钙抽搐",
+      "key_features": [
+        "手足搐搦",
+        "助产士手",
+        "伴低钙",
+        "补钙有效"
+      ]
+    },
+    {
+      "disease": "癔症性发作",
+      "key_features": [
+        "有诱因",
+        "意识存在",
+        "形式多变",
+        "暗示有效"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_fever": "发作时有发热吗？体温多少？",
+    "with_head_trauma": "近期有头部外伤吗？",
+    "with_medication": "最近有停用什么药物吗？比如抗癫痫药？"
+  },
+  "emergency_criteria": [
+    "癫痫持续状态",
+    "首次发作伴意识障碍",
+    "发作后持续意识不清"
+  ]
+}

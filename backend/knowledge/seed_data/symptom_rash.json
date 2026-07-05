@@ -1,0 +1,94 @@
+{
+  "symptom": "皮疹",
+  "department": "皮肤科",
+  "must_ask": [
+    {
+      "dimension": "皮疹形态",
+      "question": "皮疹是什么样的？红斑、丘疹、水疱、风团还是其他？"
+    },
+    {
+      "dimension": "分布部位",
+      "question": "皮疹分布在哪些部位？全身还是局部？对称吗？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有瘙痒、疼痛、发热？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "皮疹和什么有关？食物、药物、接触物、日晒？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "皮疹出现多长时间了？持续存在还是反复发作？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有过敏史、湿疹、银屑病病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用新药？"
+    },
+    {
+      "dimension": "接触史",
+      "question": "最近有没有接触新的物品、化妆品、植物？"
+    }
+  ],
+  "red_flags": [
+    "皮疹伴发热",
+    "皮疹伴黏膜损害",
+    "皮疹伴关节痛",
+    "皮疹迅速扩大伴全身症状"
+  ],
+  "related_diseases": [
+    {
+      "disease": "过敏性皮炎",
+      "key_features": [
+        "红斑",
+        "丘疹",
+        "瘙痒",
+        "过敏史"
+      ]
+    },
+    {
+      "disease": "湿疹",
+      "key_features": [
+        "多形性",
+        "对称分布",
+        "瘙痒",
+        "反复发作"
+      ]
+    },
+    {
+      "disease": "荨麻疹",
+      "key_features": [
+        "风团",
+        "时起时消",
+        "瘙痒",
+        "过敏因素"
+      ]
+    },
+    {
+      "disease": "药疹",
+      "key_features": [
+        "用药史",
+        "多种形态",
+        "可伴发热",
+        "停药后好转"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_fever": "有发热吗？",
+    "with_mucosal_lesion": "口腔或眼睛有损害吗？",
+    "with_joint_pain": "有关节痛吗？"
+  },
+  "emergency_criteria": [
+    "皮疹伴严重过敏反应",
+    "皮疹伴黏膜损害（Stevens-Johnson综合征）",
+    "皮疹伴全身感染症状"
+  ]
+}

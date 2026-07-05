@@ -1,0 +1,94 @@
+{
+  "symptom": "黄疸",
+  "department": "消化内科",
+  "must_ask": [
+    {
+      "dimension": "黄疸表现",
+      "question": "皮肤、眼睛发黄是什么时候开始的？"
+    },
+    {
+      "dimension": "尿液颜色",
+      "question": "尿颜色深吗？像浓茶吗？"
+    },
+    {
+      "dimension": "大便颜色",
+      "question": "大便颜色浅吗？像陶土吗？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有发热、腹痛、恶心呕吐、皮肤瘙痒？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有肝病史、胆石症史吗？最近输过血吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用某些药物或中药？"
+    },
+    {
+      "dimension": "饮酒史",
+      "question": "饮酒吗？喝多少？"
+    },
+    {
+      "dimension": "家族史",
+      "question": "家族中有肝病或黄疸病史吗？"
+    }
+  ],
+  "red_flags": [
+    "黄疸伴高热寒战",
+    "黄疸伴剧烈腹痛",
+    "黄疸伴意识障碍",
+    "黄疸伴出血倾向"
+  ],
+  "related_diseases": [
+    {
+      "disease": "病毒性肝炎",
+      "key_features": [
+        "乏力",
+        "纳差",
+        "恶心",
+        "肝功能异常"
+      ]
+    },
+    {
+      "disease": "胆石症",
+      "key_features": [
+        "黄疸",
+        "腹痛",
+        "发热",
+        "波动性黄疸"
+      ]
+    },
+    {
+      "disease": "肝硬化",
+      "key_features": [
+        "黄疸",
+        "腹水",
+        "肝掌蜘蛛痣",
+        "慢性肝病史"
+      ]
+    },
+    {
+      "disease": "胰头癌",
+      "key_features": [
+        "进行性黄疸",
+        "无痛",
+        "Courvoisier征",
+        "消瘦"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_pain": "有腹痛吗？",
+    "with_fever": "有发热吗？",
+    "with_weight_loss": "体重有下降吗？"
+  },
+  "emergency_criteria": [
+    "黄疸伴高热（急性化脓性胆管炎）",
+    "黄疸伴意识障碍（肝性脑病）",
+    "黄疸伴出血倾向"
+  ]
+}

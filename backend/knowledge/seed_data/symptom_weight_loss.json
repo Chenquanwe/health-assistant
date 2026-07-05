@@ -1,0 +1,93 @@
+{
+  "symptom": "体重下降",
+  "department": "内分泌科",
+  "must_ask": [
+    {
+      "dimension": "下降程度",
+      "question": "体重下降了多少斤？多长时间内下降的？"
+    },
+    {
+      "dimension": "主观意愿",
+      "question": "是刻意减肥还是不知不觉瘦了？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有食欲变化、多饮多尿、发热、腹泻？"
+    },
+    {
+      "dimension": "饮食情况",
+      "question": "吃饭正常吗？有没有吞咽困难、恶心呕吐？"
+    },
+    {
+      "dimension": "活动量",
+      "question": "运动量有变化吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有糖尿病、甲亢、肿瘤、慢性消耗性疾病史吗？"
+    },
+    {
+      "dimension": "精神因素",
+      "question": "最近压力大吗？情绪怎么样？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用减肥药或某些药物？"
+    }
+  ],
+  "red_flags": [
+    "非自愿体重明显下降",
+    "体重下降伴食欲不振",
+    "体重下降伴发热",
+    "体重下降伴便血或呕血"
+  ],
+  "related_diseases": [
+    {
+      "disease": "糖尿病",
+      "key_features": [
+        "多饮",
+        "多尿",
+        "多食",
+        "消瘦"
+      ]
+    },
+    {
+      "disease": "甲状腺功能亢进",
+      "key_features": [
+        "消瘦",
+        "心悸",
+        "多汗",
+        "手抖"
+      ]
+    },
+    {
+      "disease": "恶性肿瘤",
+      "key_features": [
+        "消瘦",
+        "食欲下降",
+        "乏力",
+        "贫血"
+      ]
+    },
+    {
+      "disease": "慢性消耗性疾病",
+      "key_features": [
+        "消瘦",
+        "低热",
+        "盗汗",
+        "慢性病程"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_polydipsia": "喝水多吗？尿多吗？",
+    "with_palpitation": "有心悸、手抖、多汗吗？",
+    "with_appetite_loss": "食欲有下降吗？"
+  },
+  "emergency_criteria": [
+    "短期内体重急剧下降",
+    "体重下降伴恶液质"
+  ]
+}

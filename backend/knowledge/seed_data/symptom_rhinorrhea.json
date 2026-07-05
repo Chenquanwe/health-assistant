@@ -1,0 +1,93 @@
+{
+  "symptom": "流涕",
+  "department": "耳鼻喉科",
+  "must_ask": [
+    {
+      "dimension": "涕液性状",
+      "question": "流的是清鼻涕、脓鼻涕还是血性鼻涕？"
+    },
+    {
+      "dimension": "单侧或双侧",
+      "question": "是一侧流还是两侧流？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有鼻塞、打喷嚏、头痛、发热？"
+    },
+    {
+      "dimension": "时间规律",
+      "question": "什么时候流涕明显？早晨、进食时？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "流涕持续多长时间了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有过敏性鼻炎、鼻窦炎病史吗？"
+    },
+    {
+      "dimension": "过敏史",
+      "question": "有过敏史吗？"
+    },
+    {
+      "dimension": "外伤史",
+      "question": "有头部外伤史吗？（脑脊液漏）"
+    }
+  ],
+  "red_flags": [
+    "单侧血性鼻涕",
+    "清水样鼻涕伴头部外伤",
+    "脓性鼻涕伴发热头痛",
+    "鼻涕带血伴颈部肿块"
+  ],
+  "related_diseases": [
+    {
+      "disease": "急性鼻炎",
+      "key_features": [
+        "流涕",
+        "鼻塞",
+        "初期清涕后脓涕",
+        "感冒"
+      ]
+    },
+    {
+      "disease": "过敏性鼻炎",
+      "key_features": [
+        "清水样涕",
+        "喷嚏",
+        "鼻痒",
+        "过敏史"
+      ]
+    },
+    {
+      "disease": "慢性鼻窦炎",
+      "key_features": [
+        "脓性鼻涕",
+        "鼻塞",
+        "头痛",
+        "面部压痛"
+      ]
+    },
+    {
+      "disease": "脑脊液鼻漏",
+      "key_features": [
+        "清水样",
+        "头部外伤后",
+        "低头加重",
+        "葡萄糖阳性"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_fever": "有发热吗？",
+    "with_headache": "有头痛吗？",
+    "with_head_trauma": "有头部外伤史吗？"
+  },
+  "emergency_criteria": [
+    "脑脊液鼻漏",
+    "血性鼻涕伴肿瘤可能"
+  ]
+}

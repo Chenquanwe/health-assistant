@@ -1,0 +1,94 @@
+{
+  "symptom": "关节痛",
+  "department": "骨科",
+  "must_ask": [
+    {
+      "dimension": "受累关节",
+      "question": "哪个关节痛？单关节还是多关节？"
+    },
+    {
+      "dimension": "疼痛性质",
+      "question": "是隐痛、胀痛还是刺痛？活动时痛还是休息时也痛？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有红肿、发热、活动受限、晨僵？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下会痛？活动、受凉、天气变化？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有痛风、类风湿、骨关节炎病史吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "外伤史",
+      "question": "关节有受过伤吗？"
+    },
+    {
+      "dimension": "全身症状",
+      "question": "有没有发热、皮疹、眼部症状？"
+    },
+    {
+      "dimension": "家族史",
+      "question": "家族中有风湿免疫病吗？"
+    }
+  ],
+  "red_flags": [
+    "关节痛伴发热",
+    "关节红肿热痛明显",
+    "多关节对称性疼痛伴晨僵",
+    "关节痛伴皮疹"
+  ],
+  "related_diseases": [
+    {
+      "disease": "骨关节炎",
+      "key_features": [
+        "负重关节",
+        "活动后加重",
+        "休息缓解",
+        "骨赘形成"
+      ]
+    },
+    {
+      "disease": "类风湿关节炎",
+      "key_features": [
+        "对称性",
+        "晨僵",
+        "小关节为主",
+        "类风湿因子阳性"
+      ]
+    },
+    {
+      "disease": "痛风",
+      "key_features": [
+        "突发剧痛",
+        "第一跖趾关节",
+        "红肿热",
+        "高尿酸"
+      ]
+    },
+    {
+      "disease": "化脓性关节炎",
+      "key_features": [
+        "单关节",
+        "红肿热痛",
+        "发热",
+        "关节穿刺确诊"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_fever": "有发热吗？",
+    "with_morning_stiffness": "早晨起来关节僵硬吗？持续多久？",
+    "with_urate": "尿酸高吗？有痛风史吗？"
+  },
+  "emergency_criteria": [
+    "关节痛伴高热（化脓性关节炎）",
+    "关节痛伴关节破坏",
+    "关节痛伴严重功能障碍"
+  ]
+}

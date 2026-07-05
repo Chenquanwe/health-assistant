@@ -1,0 +1,94 @@
+{
+  "symptom": "咳痰",
+  "department": "呼吸内科",
+  "must_ask": [
+    {
+      "dimension": "痰液性状",
+      "question": "痰是什么颜色的？白色、黄色、绿色还是带血？"
+    },
+    {
+      "dimension": "痰量",
+      "question": "每天大概咳多少痰？一口还是很多？"
+    },
+    {
+      "dimension": "痰液粘稠度",
+      "question": "痰容易咳出来吗？是稀的还是粘稠的？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "咳痰持续多长时间了？"
+    },
+    {
+      "dimension": "时间规律",
+      "question": "什么时候咳痰多？早晨起床时吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "伴随症状",
+      "question": "有没有发热、胸痛、呼吸困难？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有慢性支气管炎、支气管扩张、肺结核病史吗？"
+    },
+    {
+      "dimension": "吸烟史",
+      "question": "吸烟吗？"
+    }
+  ],
+  "red_flags": [
+    "咳大量脓臭痰",
+    "痰中带血或咯血",
+    "咳粉红色泡沫痰",
+    "咳铁锈色痰"
+  ],
+  "related_diseases": [
+    {
+      "disease": "急性支气管炎",
+      "key_features": [
+        "初期白痰",
+        "后转黄痰",
+        "伴咳嗽",
+        "急性起病"
+      ]
+    },
+    {
+      "disease": "肺炎",
+      "key_features": [
+        "发热",
+        "咳黄痰或铁锈色痰",
+        "胸痛",
+        "呼吸困难"
+      ]
+    },
+    {
+      "disease": "慢性阻塞性肺疾病",
+      "key_features": [
+        "晨起咳痰",
+        "白色泡沫痰",
+        "吸烟史",
+        "慢性病程"
+      ]
+    },
+    {
+      "disease": "支气管扩张",
+      "key_features": [
+        "大量脓痰",
+        "晨起明显",
+        "反复感染",
+        "可有咯血"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_fever": "有发热吗？体温多少？",
+    "with_hemoptysis": "痰里带血吗？",
+    "with_foul_smell": "痰有臭味吗？"
+  },
+  "emergency_criteria": [
+    "大咯血",
+    "咳粉红色泡沫痰伴呼吸困难",
+    "咳痰伴意识障碍"
+  ]
+}

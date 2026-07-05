@@ -1,0 +1,93 @@
+{
+  "symptom": "失眠",
+  "department": "神经内科",
+  "must_ask": [
+    {
+      "dimension": "失眠类型",
+      "question": "是入睡困难、易醒，还是早醒？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "失眠持续多长时间了？"
+    },
+    {
+      "dimension": "睡眠时长",
+      "question": "每晚大概能睡几个小时？"
+    },
+    {
+      "dimension": "日间影响",
+      "question": "白天精神怎么样？会不会困倦、注意力不集中？"
+    },
+    {
+      "dimension": "诱因",
+      "question": "最近有没有什么烦心事或压力？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "生活习惯",
+      "question": "睡前有没有喝茶、咖啡或看手机的习惯？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "以前睡眠情况怎么样？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "有没有服用安眠药或其他药物？"
+    }
+  ],
+  "red_flags": [
+    "严重失眠伴情绪低落、消极念头",
+    "失眠伴幻觉或妄想",
+    "失眠伴明显的日间功能障碍",
+    "长期失眠导致明显体重下降"
+  ],
+  "related_diseases": [
+    {
+      "disease": "原发性失眠",
+      "key_features": [
+        "入睡困难",
+        "睡眠维持障碍",
+        "日间疲劳",
+        "无其他原因"
+      ]
+    },
+    {
+      "disease": "焦虑相关失眠",
+      "key_features": [
+        "入睡困难为主",
+        "伴焦虑情绪",
+        "思虑过多",
+        "紧张不安"
+      ]
+    },
+    {
+      "disease": "抑郁相关失眠",
+      "key_features": [
+        "早醒为主",
+        "情绪低落",
+        "兴趣减退",
+        "精力不足"
+      ]
+    },
+    {
+      "disease": "睡眠呼吸暂停",
+      "key_features": [
+        "打鼾",
+        "睡眠中憋醒",
+        "白天嗜睡",
+        "肥胖"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_snoring": "睡觉打呼噜吗？有没有被憋醒过？",
+    "with_mood_change": "最近情绪怎么样？有没有心情低落或焦虑？",
+    "with_shift_work": "工作需要倒班或经常熬夜吗？"
+  },
+  "emergency_criteria": [
+    "失眠伴严重抑郁有自伤倾向",
+    "失眠伴精神症状（幻觉、妄想）"
+  ]
+}

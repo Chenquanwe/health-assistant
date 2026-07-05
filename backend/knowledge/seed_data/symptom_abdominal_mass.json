@@ -1,0 +1,93 @@
+{
+  "symptom": "腹部肿块",
+  "department": "消化内科",
+  "must_ask": [
+    {
+      "dimension": "肿块部位",
+      "question": "肿块在腹部的哪个位置？上腹、下腹、脐周？"
+    },
+    {
+      "dimension": "肿块性质",
+      "question": "肿块硬还是软？边界清楚吗？能活动吗？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有腹痛、腹胀、消瘦、便血、黄疸？"
+    },
+    {
+      "dimension": "大小变化",
+      "question": "肿块有增大吗？"
+    },
+    {
+      "dimension": "发现时间",
+      "question": "肿块发现多长时间了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有肝病、肾病、肿瘤病史吗？"
+    },
+    {
+      "dimension": "排便情况",
+      "question": "排便习惯有改变吗？"
+    },
+    {
+      "dimension": "月经情况",
+      "question": "女性：月经有变化吗？"
+    }
+  ],
+  "red_flags": [
+    "腹部肿块伴消瘦",
+    "腹部肿块伴便血",
+    "腹部肿块伴黄疸",
+    "质硬固定肿块"
+  ],
+  "related_diseases": [
+    {
+      "disease": "肝脾肿大",
+      "key_features": [
+        "上腹或左上腹",
+        "随呼吸移动",
+        "肝病或血液病基础",
+        "B超确诊"
+      ]
+    },
+    {
+      "disease": "腹腔肿瘤",
+      "key_features": [
+        "质硬",
+        "固定",
+        "消瘦",
+        "可伴梗阻"
+      ]
+    },
+    {
+      "disease": "卵巢囊肿",
+      "key_features": [
+        "下腹部",
+        "活动",
+        "女性",
+        "B超确诊"
+      ]
+    },
+    {
+      "disease": "肾积水",
+      "key_features": [
+        "侧腹部",
+        "囊性",
+        "泌尿系症状",
+        "B超确诊"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_weight_loss": "体重有下降吗？",
+    "with_pain": "有腹痛吗？",
+    "with_bowel_change": "排便习惯有改变吗？"
+  },
+  "emergency_criteria": [
+    "腹部肿块伴肠梗阻",
+    "腹部肿块伴肿瘤破裂出血"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "symptom": "水肿",
+  "department": "心内科",
+  "must_ask": [
+    {
+      "dimension": "水肿部位",
+      "question": "哪里水肿？下肢、眼睑、面部还是全身？"
+    },
+    {
+      "dimension": "水肿性质",
+      "question": "按下去有凹陷吗？能很快恢复吗？"
+    },
+    {
+      "dimension": "时间规律",
+      "question": "早晨重还是晚上重？"
+    },
+    {
+      "dimension": "对称性",
+      "question": "双侧对称吗？还是单侧水肿？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有呼吸困难、尿量减少、腹胀？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有心脏病、肾病、肝病病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用降压药（如钙拮抗剂）？"
+    },
+    {
+      "dimension": "月经因素",
+      "question": "和月经周期有关吗？"
+    }
+  ],
+  "red_flags": [
+    "突发呼吸困难伴下肢水肿",
+    "单侧下肢水肿伴疼痛",
+    "全身水肿伴尿量明显减少",
+    "水肿伴腹水"
+  ],
+  "related_diseases": [
+    {
+      "disease": "心力衰竭",
+      "key_features": [
+        "下肢水肿",
+        "呼吸困难",
+        "端坐呼吸",
+        "心脏病基础"
+      ]
+    },
+    {
+      "disease": "肾病综合征",
+      "key_features": [
+        "全身水肿",
+        "大量蛋白尿",
+        "低白蛋白血症",
+        "眼睑水肿"
+      ]
+    },
+    {
+      "disease": "肝硬化",
+      "key_features": [
+        "腹水",
+        "下肢水肿",
+        "肝病史",
+        "低白蛋白"
+      ]
+    },
+    {
+      "disease": "下肢深静脉血栓",
+      "key_features": [
+        "单侧下肢肿胀",
+        "疼痛",
+        "皮温升高",
+        "Homans征阳性"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_dyspnea": "有呼吸困难吗？躺下会加重吗？",
+    "with_urine_change": "尿量有变化吗？尿中泡沫多吗？",
+    "with_liver_disease": "有肝病病史吗？"
+  },
+  "emergency_criteria": [
+    "水肿伴急性呼吸困难",
+    "单侧下肢肿胀伴胸痛呼吸困难",
+    "全身水肿伴少尿或无尿"
+  ]
+}

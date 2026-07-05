@@ -1,0 +1,94 @@
+{
+  "symptom": "咳嗽",
+  "department": "呼吸内科",
+  "must_ask": [
+    {
+      "dimension": "咳嗽性质",
+      "question": "是干咳还是有痰的咳嗽？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "咳嗽持续多长时间了？"
+    },
+    {
+      "dimension": "发作时间",
+      "question": "白天咳还是晚上咳？早晨咳得厉害吗？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下会咳嗽？比如冷空气、运动、进食？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有发热、胸痛、呼吸困难、喘息？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有哮喘、慢性支气管炎、肺结核病史吗？"
+    },
+    {
+      "dimension": "吸烟史",
+      "question": "吸烟吗？吸了多少年了？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用降压药（如ACEI类）？"
+    }
+  ],
+  "red_flags": [
+    "咳嗽伴咯血",
+    "咳嗽伴呼吸困难",
+    "长期吸烟者咳嗽性质改变",
+    "咳嗽伴明显消瘦"
+  ],
+  "related_diseases": [
+    {
+      "disease": "急性上呼吸道感染",
+      "key_features": [
+        "急性起病",
+        "伴流涕咽痛",
+        "自限性",
+        "全身症状轻"
+      ]
+    },
+    {
+      "disease": "急性支气管炎",
+      "key_features": [
+        "咳嗽有痰",
+        "可有发热",
+        "胸骨后痛",
+        "前期有感冒"
+      ]
+    },
+    {
+      "disease": "慢性阻塞性肺疾病",
+      "key_features": [
+        "慢性咳嗽",
+        "咳痰",
+        "活动后气短",
+        "吸烟史"
+      ]
+    },
+    {
+      "disease": "咳嗽变异性哮喘",
+      "key_features": [
+        "干咳为主",
+        "夜间加重",
+        "遇冷诱发",
+        "抗生素无效"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_sputum": "咳痰吗？痰是什么颜色的？量多不多？",
+    "with_wheezing": "咳嗽时有喘息声吗？",
+    "with_postnasal_drip": "有没有鼻塞、流涕、喉咙有东西流下去的感觉？"
+  },
+  "emergency_criteria": [
+    "咳嗽伴大量咯血",
+    "咳嗽伴严重呼吸困难",
+    "咳嗽伴意识障碍"
+  ]
+}

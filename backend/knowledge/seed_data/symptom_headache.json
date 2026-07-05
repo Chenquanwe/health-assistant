@@ -1,0 +1,82 @@
+{
+  "symptom": "头痛",
+  "department": "神经内科",
+  "must_ask": [
+    {
+      "dimension": "起病时间",
+      "question": "头痛是什么时候开始的？"
+    },
+    {
+      "dimension": "部位",
+      "question": "具体是哪个位置疼？"
+    },
+    {
+      "dimension": "性质",
+      "question": "是胀痛、刺痛还是搏动性疼痛？"
+    },
+    {
+      "dimension": "严重程度",
+      "question": "1到10分，疼痛程度大概几分？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有恶心、呕吐、怕光或怕声音？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "加重缓解因素",
+      "question": "什么情况下会加重或缓解？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "以前有过类似的头痛吗？"
+    }
+  ],
+  "red_flags": [
+    "突发剧烈头痛（雷击样）",
+    "伴有颈项强直",
+    "伴有意识障碍",
+    "伴有局灶神经功能缺损"
+  ],
+  "related_diseases": [
+    {
+      "disease": "偏头痛",
+      "key_features": [
+        "单侧",
+        "搏动性",
+        "伴恶心",
+        "畏光畏声"
+      ]
+    },
+    {
+      "disease": "紧张性头痛",
+      "key_features": [
+        "双侧",
+        "紧箍感",
+        "轻中度",
+        "无恶心"
+      ]
+    },
+    {
+      "disease": "丛集性头痛",
+      "key_features": [
+        "眼眶周围",
+        "剧烈",
+        "流泪",
+        "鼻塞"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_fever": "头痛伴有发热吗？",
+    "with_hypertension": "有高血压病史吗？最近测过血压吗？",
+    "with_trauma": "最近头部有没有受过外伤？"
+  },
+  "emergency_criteria": [
+    "突发的'一生中最严重的头痛'",
+    "伴有意识改变",
+    "伴有癫痫发作",
+    "近期头部外伤后出现的头痛"
+  ]
+}

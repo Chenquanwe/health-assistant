@@ -1,0 +1,94 @@
+{
+  "symptom": "视力下降",
+  "department": "眼科",
+  "must_ask": [
+    {
+      "dimension": "起病方式",
+      "question": "视力下降是突然的还是逐渐的？"
+    },
+    {
+      "dimension": "单眼或双眼",
+      "question": "是一只眼睛还是两只眼睛？"
+    },
+    {
+      "dimension": "视力程度",
+      "question": "看东西模糊到什么程度？能看见手指吗？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有眼痛、眼红、流泪、头痛？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有近视、糖尿病、高血压、青光眼病史吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "用药史",
+      "question": "最近有没有使用某些药物或眼药水？"
+    },
+    {
+      "dimension": "外伤史",
+      "question": "眼睛有受过伤吗？"
+    },
+    {
+      "dimension": "用眼习惯",
+      "question": "平时用眼多吗？看手机电脑多吗？"
+    }
+  ],
+  "red_flags": [
+    "突发视力丧失",
+    "视力下降伴剧烈眼痛",
+    "视力下降伴头痛",
+    "视力下降伴视野缺损"
+  ],
+  "related_diseases": [
+    {
+      "disease": "白内障",
+      "key_features": [
+        "渐进性视力下降",
+        "无痛",
+        "老年",
+        "晶状体浑浊"
+      ]
+    },
+    {
+      "disease": "青光眼",
+      "key_features": [
+        "眼痛",
+        "头痛",
+        "视力下降",
+        "眼压升高"
+      ]
+    },
+    {
+      "disease": "视网膜脱离",
+      "key_features": [
+        "突发",
+        "眼前黑影",
+        "闪光感",
+        "高度近视"
+      ]
+    },
+    {
+      "disease": "糖尿病视网膜病变",
+      "key_features": [
+        "视力下降",
+        "糖尿病史",
+        "眼底出血",
+        "双眼"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_eye_pain": "有眼痛吗？",
+    "with_headache": "有头痛吗？",
+    "with_diabetes": "有糖尿病吗？"
+  },
+  "emergency_criteria": [
+    "突发视力丧失需立即就医",
+    "视力下降伴急性青光眼",
+    "视力下降伴视网膜脱离"
+  ]
+}

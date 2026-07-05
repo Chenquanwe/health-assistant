@@ -1,0 +1,94 @@
+{
+  "symptom": "便血",
+  "department": "消化内科",
+  "must_ask": [
+    {
+      "dimension": "血液性状",
+      "question": "血是鲜红的还是暗红的？附在表面还是混在便中？"
+    },
+    {
+      "dimension": "出血量",
+      "question": "出血量多少？滴血、喷射还是仅纸上有血？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有腹痛、腹泻、便秘、体重下降？"
+    },
+    {
+      "dimension": "排便情况",
+      "question": "大便性状有变化吗？排便习惯有改变吗？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有痔疮、肛裂、炎症性肠病、肿瘤病史吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "年龄因素",
+      "question": "今年多大年纪了？"
+    },
+    {
+      "dimension": "家族史",
+      "question": "家族中有结直肠肿瘤病史吗？"
+    },
+    {
+      "dimension": "其他出血",
+      "question": "有没有呕血、黑便？"
+    }
+  ],
+  "red_flags": [
+    "便血伴体重明显下降",
+    "便血伴排便习惯改变",
+    "暗红色血便或黑便",
+    "便血伴贫血"
+  ],
+  "related_diseases": [
+    {
+      "disease": "痔疮",
+      "key_features": [
+        "鲜血便",
+        "便后滴血或喷射",
+        "无痛",
+        "肛诊确诊"
+      ]
+    },
+    {
+      "disease": "肛裂",
+      "key_features": [
+        "鲜血便",
+        "排便疼痛",
+        "便秘",
+        "肛诊可见裂口"
+      ]
+    },
+    {
+      "disease": "结直肠癌",
+      "key_features": [
+        "血便",
+        "排便习惯改变",
+        "体重下降",
+        "年龄>40岁"
+      ]
+    },
+    {
+      "disease": "炎症性肠病",
+      "key_features": [
+        "血便",
+        "腹泻",
+        "腹痛",
+        "可伴发热"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_pain": "排便时有疼痛吗？",
+    "with_weight_loss": "体重有下降吗？",
+    "with_habit_change": "排便习惯有改变吗？"
+  },
+  "emergency_criteria": [
+    "大量便血伴休克",
+    "便血伴严重贫血",
+    "便血伴肠梗阻表现"
+  ]
+}

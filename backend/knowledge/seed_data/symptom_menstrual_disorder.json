@@ -1,0 +1,94 @@
+{
+  "symptom": "月经异常",
+  "department": "妇科",
+  "must_ask": [
+    {
+      "dimension": "异常类型",
+      "question": "月经怎么异常？周期紊乱、经量过多、经量过少、经期延长？"
+    },
+    {
+      "dimension": "月经史",
+      "question": "平时月经规律吗？末次月经是什么时候？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有痛经、经间期出血、腹痛？"
+    },
+    {
+      "dimension": "生育史",
+      "question": "有性生活吗？有怀孕可能吗？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "月经异常持续多长时间了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有子宫肌瘤、子宫内膜异位症、多囊卵巢综合征病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "有没有服用避孕药、减肥药或其他药物？"
+    },
+    {
+      "dimension": "精神因素",
+      "question": "最近压力大吗？情绪波动大吗？"
+    }
+  ],
+  "red_flags": [
+    "停经后阴道流血",
+    "绝经后阴道流血",
+    "月经紊乱伴贫血",
+    "月经紊乱伴腹部包块"
+  ],
+  "related_diseases": [
+    {
+      "disease": "功能失调性子宫出血",
+      "key_features": [
+        "月经紊乱",
+        "无器质病变",
+        "激素治疗有效",
+        "青春期或围绝经期"
+      ]
+    },
+    {
+      "disease": "子宫肌瘤",
+      "key_features": [
+        "经量增多",
+        "经期延长",
+        "贫血",
+        "子宫增大"
+      ]
+    },
+    {
+      "disease": "多囊卵巢综合征",
+      "key_features": [
+        "月经稀发",
+        "不孕",
+        "多毛",
+        "肥胖"
+      ]
+    },
+    {
+      "disease": "子宫内膜异位症",
+      "key_features": [
+        "痛经",
+        "月经异常",
+        "不孕",
+        "盆腔包块"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_pregnancy": "有怀孕可能吗？",
+    "with_pain": "有痛经或腹痛吗？",
+    "with_anemia": "有头晕、乏力、面色苍白吗？"
+  },
+  "emergency_criteria": [
+    "大出血伴休克",
+    "异位妊娠破裂",
+    "绝经后出血需排查肿瘤"
+  ]
+}

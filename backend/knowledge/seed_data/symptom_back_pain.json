@@ -1,0 +1,94 @@
+{
+  "symptom": "腰背痛",
+  "department": "骨科",
+  "must_ask": [
+    {
+      "dimension": "疼痛部位",
+      "question": "腰背痛具体在哪个位置？上背、下腰还是整个腰背？"
+    },
+    {
+      "dimension": "疼痛性质",
+      "question": "是酸痛、胀痛、刺痛还是放射痛？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有腿痛、腿麻、无力、大小便异常？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下会痛？久坐、久站、弯腰、活动？"
+    },
+    {
+      "dimension": "缓解因素",
+      "question": "什么情况下会好一点？卧床休息、热敷？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "外伤史",
+      "question": "有腰部外伤史吗？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有腰椎间盘突出、强直性脊柱炎、骨质疏松病史吗？"
+    },
+    {
+      "dimension": "职业因素",
+      "question": "工作需要久坐或重体力劳动吗？"
+    }
+  ],
+  "red_flags": [
+    "腰背痛伴下肢放射痛",
+    "腰背痛伴大小便障碍",
+    "腰背痛伴发热",
+    "外伤后腰背痛"
+  ],
+  "related_diseases": [
+    {
+      "disease": "腰椎间盘突出症",
+      "key_features": [
+        "腰痛",
+        "下肢放射痛",
+        "直腿抬高阳性",
+        "CT/MRI确诊"
+      ]
+    },
+    {
+      "disease": "腰肌劳损",
+      "key_features": [
+        "酸痛",
+        "劳累加重",
+        "休息缓解",
+        "无神经症状"
+      ]
+    },
+    {
+      "disease": "强直性脊柱炎",
+      "key_features": [
+        "晨僵",
+        "夜间痛",
+        "活动后缓解",
+        "HLA-B27阳性"
+      ]
+    },
+    {
+      "disease": "骨质疏松症",
+      "key_features": [
+        "腰背痛",
+        "老年人",
+        "可伴骨折",
+        "骨密度降低"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_radicular_pain": "有腿痛或腿麻吗？",
+    "with_bladder_bowel": "有大便或小便异常吗？",
+    "with_fever": "有发热吗？"
+  },
+  "emergency_criteria": [
+    "腰背痛伴马尾综合征",
+    "外伤后腰背痛伴神经症状",
+    "腰背痛伴发热（脊柱感染）"
+  ]
+}

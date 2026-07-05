@@ -1,0 +1,93 @@
+{
+  "symptom": "乳房肿块",
+  "department": "乳腺外科",
+  "must_ask": [
+    {
+      "dimension": "肿块部位",
+      "question": "肿块在乳房的哪个位置？单侧还是双侧？"
+    },
+    {
+      "dimension": "肿块性质",
+      "question": "肿块硬还是软？边界清楚吗？活动度怎么样？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有疼痛、乳头溢液、皮肤改变？"
+    },
+    {
+      "dimension": "月经关系",
+      "question": "肿块和月经周期有关吗？经前会增大或疼痛吗？"
+    },
+    {
+      "dimension": "发现时间",
+      "question": "肿块发现多长时间了？有变化吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有乳腺增生、乳腺纤维腺瘤病史吗？"
+    },
+    {
+      "dimension": "家族史",
+      "question": "家族中有乳腺癌病史吗？"
+    },
+    {
+      "dimension": "生育史",
+      "question": "生育过吗？哺乳过吗？"
+    }
+  ],
+  "red_flags": [
+    "无痛性硬块",
+    "肿块伴皮肤橘皮样改变",
+    "肿块伴乳头内陷",
+    "肿块伴腋窝淋巴结肿大"
+  ],
+  "related_diseases": [
+    {
+      "disease": "乳腺增生",
+      "key_features": [
+        "多发结节",
+        "周期性疼痛",
+        "经前加重",
+        "双侧多见"
+      ]
+    },
+    {
+      "disease": "乳腺纤维腺瘤",
+      "key_features": [
+        "光滑活动",
+        "边界清",
+        "无痛",
+        "年轻女性"
+      ]
+    },
+    {
+      "disease": "乳腺囊肿",
+      "key_features": [
+        "囊性",
+        "光滑",
+        "可抽出液体",
+        "B超确诊"
+      ]
+    },
+    {
+      "disease": "乳腺癌",
+      "key_features": [
+        "无痛硬块",
+        "边界不清",
+        "皮肤改变",
+        "腋窝淋巴结"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_pain": "肿块有疼痛吗？",
+    "with_discharge": "有乳头溢液吗？",
+    "with_skin_change": "乳房皮肤有变化吗？"
+  },
+  "emergency_criteria": [
+    "可疑恶性肿块需尽快活检",
+    "肿块伴腋窝淋巴结肿大"
+  ]
+}

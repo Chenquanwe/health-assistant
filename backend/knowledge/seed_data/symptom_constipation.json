@@ -1,0 +1,93 @@
+{
+  "symptom": "便秘",
+  "department": "消化内科",
+  "must_ask": [
+    {
+      "dimension": "排便频率",
+      "question": "几天排便一次？"
+    },
+    {
+      "dimension": "大便性状",
+      "question": "大便是干硬的还是正常的？"
+    },
+    {
+      "dimension": "排便困难",
+      "question": "排便费力吗？有排便不尽感吗？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "便秘持续多长时间了？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有腹痛、腹胀、便血？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "生活习惯",
+      "question": "平时喝水多吗？吃蔬菜水果多吗？运动多吗？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有痔疮、肛裂、甲状腺功能减退病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有服用某些药物（如止痛药、抗抑郁药）？"
+    }
+  ],
+  "red_flags": [
+    "便秘伴便血",
+    "便秘伴腹痛腹胀加重",
+    "长期便秘突然加重",
+    "便秘伴体重下降"
+  ],
+  "related_diseases": [
+    {
+      "disease": "功能性便秘",
+      "key_features": [
+        "排便次数减少",
+        "粪便干硬",
+        "排便费力",
+        "排除器质性病变"
+      ]
+    },
+    {
+      "disease": "肠易激综合征",
+      "key_features": [
+        "便秘与腹泻交替",
+        "腹痛",
+        "排便后缓解",
+        "情绪相关"
+      ]
+    },
+    {
+      "disease": "结肠肿瘤",
+      "key_features": [
+        "排便习惯改变",
+        "便血",
+        "体重下降",
+        "年龄>40岁"
+      ]
+    },
+    {
+      "disease": "甲状腺功能减退",
+      "key_features": [
+        "便秘",
+        "乏力",
+        "怕冷",
+        "体重增加"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_blood": "大便里有血吗？",
+    "with_weight_change": "最近体重有变化吗？",
+    "with_habit_change": "排便习惯有改变吗？"
+  },
+  "emergency_criteria": [
+    "便秘伴肠梗阻表现",
+    "便秘伴便血和消瘦"
+  ]
+}

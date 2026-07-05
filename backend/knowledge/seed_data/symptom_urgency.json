@@ -1,0 +1,93 @@
+{
+  "symptom": "尿急",
+  "department": "泌尿外科",
+  "must_ask": [
+    {
+      "dimension": "程度",
+      "question": "尿意来的时候能憋住吗？有来不及上厕所的情况吗？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有尿频、尿痛、尿失禁？"
+    },
+    {
+      "dimension": "时间规律",
+      "question": "白天重还是夜间重？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下会尿急？听到水声、紧张、寒冷？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "尿急持续多长时间了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有尿路感染、前列腺增生、神经源性膀胱病史吗？"
+    },
+    {
+      "dimension": "神经系统症状",
+      "question": "有腰背外伤史、神经系统疾病吗？"
+    },
+    {
+      "dimension": "生育史",
+      "question": "女性：有盆底肌松弛、分娩史吗？"
+    }
+  ],
+  "red_flags": [
+    "尿急伴血尿",
+    "尿急伴发热",
+    "尿急伴急迫性尿失禁",
+    "尿急伴神经症状"
+  ],
+  "related_diseases": [
+    {
+      "disease": "尿路感染",
+      "key_features": [
+        "尿急",
+        "尿频",
+        "尿痛",
+        "可伴发热"
+      ]
+    },
+    {
+      "disease": "膀胱过度活动症",
+      "key_features": [
+        "尿急",
+        "尿频",
+        "无感染",
+        "尿动力学确诊"
+      ]
+    },
+    {
+      "disease": "前列腺增生",
+      "key_features": [
+        "尿急",
+        "排尿困难",
+        "夜尿多",
+        "老年男性"
+      ]
+    },
+    {
+      "disease": "神经源性膀胱",
+      "key_features": [
+        "尿急",
+        "尿失禁",
+        "排尿困难",
+        "神经病变史"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_incontinence": "有尿失禁吗？憋不住尿吗？",
+    "with_infection": "有尿痛或发热吗？",
+    "with_neurological": "有腰背或神经系统疾病吗？"
+  },
+  "emergency_criteria": [
+    "尿急伴急性尿潴留",
+    "尿急伴严重感染"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "symptom": "咯血",
+  "department": "呼吸内科",
+  "must_ask": [
+    {
+      "dimension": "出血量",
+      "question": "咯血量多少？痰中带血、一口还是大量？"
+    },
+    {
+      "dimension": "血液性状",
+      "question": "血是鲜红的还是暗红的？有泡沫吗？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有咳嗽、咳痰、胸痛、发热、呼吸困难？"
+    },
+    {
+      "dimension": "既往史",
+      "question": "有肺结核、支气管扩张、心脏病病史吗？"
+    },
+    {
+      "dimension": "吸烟史",
+      "question": "吸烟吗？吸了多少年？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "出血来源",
+      "question": "肯定是咳出来的吗？不是呕血？"
+    },
+    {
+      "dimension": "诱因",
+      "question": "什么情况下咯血？剧烈咳嗽后？"
+    },
+    {
+      "dimension": "既往检查",
+      "question": "以前做过胸部CT或支气管镜吗？"
+    }
+  ],
+  "red_flags": [
+    "大咯血（一次超过100ml或24小时超过500ml）",
+    "咯血伴呼吸困难",
+    "咯血伴血压下降",
+    "咯血伴意识障碍"
+  ],
+  "related_diseases": [
+    {
+      "disease": "支气管扩张",
+      "key_features": [
+        "反复咯血",
+        "咳脓痰",
+        "肺部感染史",
+        "CT确诊"
+      ]
+    },
+    {
+      "disease": "肺结核",
+      "key_features": [
+        "咯血",
+        "低热盗汗",
+        "消瘦",
+        "痰找抗酸杆菌"
+      ]
+    },
+    {
+      "disease": "肺癌",
+      "key_features": [
+        "痰中带血",
+        "吸烟史",
+        "消瘦",
+        "年龄>40岁"
+      ]
+    },
+    {
+      "disease": "肺栓塞",
+      "key_features": [
+        "突发咯血",
+        "胸痛",
+        "呼吸困难",
+        "下肢静脉血栓"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_fever": "有发热吗？体温多少？",
+    "with_weight_loss": "最近体重有下降吗？",
+    "with_chest_pain": "有胸痛吗？"
+  },
+  "emergency_criteria": [
+    "大咯血有窒息风险",
+    "咯血伴休克表现",
+    "咯血伴严重呼吸困难"
+  ]
+}

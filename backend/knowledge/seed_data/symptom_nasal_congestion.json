@@ -1,0 +1,93 @@
+{
+  "symptom": "鼻塞",
+  "department": "耳鼻喉科",
+  "must_ask": [
+    {
+      "dimension": "单侧或双侧",
+      "question": "是一侧鼻塞还是两侧鼻塞？"
+    },
+    {
+      "dimension": "时间规律",
+      "question": "什么时候鼻塞明显？白天、晚上、季节性？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有流涕、打喷嚏、头痛、嗅觉减退？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下会鼻塞？冷空气、灰尘、感冒？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "鼻塞持续多长时间了？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有过敏性鼻炎、鼻窦炎、鼻中隔偏曲病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "有没有长期使用滴鼻液？"
+    },
+    {
+      "dimension": "过敏史",
+      "question": "有过敏史吗？对什么过敏？"
+    }
+  ],
+  "red_flags": [
+    "单侧持续性鼻塞",
+    "鼻塞伴血涕",
+    "鼻塞伴面部麻木",
+    "鼻塞伴颈部淋巴结肿大"
+  ],
+  "related_diseases": [
+    {
+      "disease": "急性鼻炎",
+      "key_features": [
+        "鼻塞",
+        "流涕",
+        "打喷嚏",
+        "感冒后"
+      ]
+    },
+    {
+      "disease": "过敏性鼻炎",
+      "key_features": [
+        "鼻塞",
+        "喷嚏",
+        "清水样涕",
+        "季节性或常年性"
+      ]
+    },
+    {
+      "disease": "慢性鼻窦炎",
+      "key_features": [
+        "鼻塞",
+        "脓涕",
+        "头痛",
+        "嗅觉减退"
+      ]
+    },
+    {
+      "disease": "鼻息肉",
+      "key_features": [
+        "渐进性鼻塞",
+        "双侧多见",
+        "嗅觉减退",
+        "内镜确诊"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_sneezing": "有打喷嚏吗？",
+    "with_epistaxis": "有鼻出血吗？",
+    "with_facial_pain": "有面部疼痛或头痛吗？"
+  },
+  "emergency_criteria": [
+    "鼻塞伴血涕需排查肿瘤",
+    "鼻塞伴眼部症状"
+  ]
+}

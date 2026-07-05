@@ -1,0 +1,93 @@
+{
+  "symptom": "焦虑",
+  "department": "精神科",
+  "must_ask": [
+    {
+      "dimension": "焦虑表现",
+      "question": "主要是什么感觉？紧张不安、担心害怕、坐立不安？"
+    },
+    {
+      "dimension": "躯体症状",
+      "question": "有没有心悸、出汗、手抖、胸闷、气短？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "焦虑持续多长时间了？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下会焦虑？特定场合、压力、还是无缘无故？"
+    },
+    {
+      "dimension": "影响程度",
+      "question": "焦虑对生活工作有影响吗？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有焦虑症、抑郁症、其他精神疾病病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "有没有服用抗焦虑药、抗抑郁药？"
+    },
+    {
+      "dimension": "睡眠情况",
+      "question": "睡眠怎么样？入睡困难吗？"
+    }
+  ],
+  "red_flags": [
+    "严重焦虑伴自杀念头",
+    "焦虑伴惊恐发作",
+    "焦虑伴幻觉妄想",
+    "焦虑伴严重躯体症状"
+  ],
+  "related_diseases": [
+    {
+      "disease": "广泛性焦虑障碍",
+      "key_features": [
+        "持续担忧",
+        "多种躯体症状",
+        "难以控制",
+        "影响功能"
+      ]
+    },
+    {
+      "disease": "惊恐障碍",
+      "key_features": [
+        "突发恐惧",
+        "心悸出汗",
+        "濒死感",
+        "预期性焦虑"
+      ]
+    },
+    {
+      "disease": "社交焦虑障碍",
+      "key_features": [
+        "社交场合恐惧",
+        "回避行为",
+        "脸红出汗",
+        "影响社交"
+      ]
+    },
+    {
+      "disease": "躯体疾病伴焦虑",
+      "key_features": [
+        "甲亢",
+        "心脏病",
+        "嗜铬细胞瘤",
+        "原发病表现"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_panic": "有没有突然发作的强烈恐惧？",
+    "with_depression": "有没有情绪低落、兴趣减退？",
+    "with_sleep": "睡眠有问题吗？"
+  },
+  "emergency_criteria": [
+    "严重焦虑伴自伤风险",
+    "惊恐发作伴心脏病可能"
+  ]
+}

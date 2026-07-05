@@ -1,0 +1,94 @@
+{
+  "symptom": "心悸",
+  "department": "心内科",
+  "must_ask": [
+    {
+      "dimension": "发作特点",
+      "question": "心悸是持续的还是间歇的？心跳快还是不齐？"
+    },
+    {
+      "dimension": "诱发因素",
+      "question": "什么情况下会心悸？活动、情绪激动、休息时？"
+    },
+    {
+      "dimension": "持续时间",
+      "question": "每次发作持续多长时间？"
+    },
+    {
+      "dimension": "缓解方式",
+      "question": "怎么缓解的？休息、深呼吸、还是自己好的？"
+    },
+    {
+      "dimension": "伴随症状",
+      "question": "有没有胸痛、头晕、黑矇、晕厥？"
+    }
+  ],
+  "suggest_ask": [
+    {
+      "dimension": "既往史",
+      "question": "有心脏病、甲亢、贫血病史吗？"
+    },
+    {
+      "dimension": "用药史",
+      "question": "最近有没有喝咖啡、浓茶或服用某些药物？"
+    },
+    {
+      "dimension": "精神因素",
+      "question": "最近压力大吗？睡眠怎么样？"
+    }
+  ],
+  "red_flags": [
+    "心悸伴胸痛",
+    "心悸伴晕厥或黑矇",
+    "心悸伴呼吸困难",
+    "突发心悸伴大汗"
+  ],
+  "related_diseases": [
+    {
+      "disease": "心律失常",
+      "key_features": [
+        "心跳不规则",
+        "突发突止",
+        "可伴头晕",
+        "心电图确诊"
+      ]
+    },
+    {
+      "disease": "甲状腺功能亢进",
+      "key_features": [
+        "心悸",
+        "消瘦",
+        "多汗",
+        "手抖"
+      ]
+    },
+    {
+      "disease": "贫血",
+      "key_features": [
+        "心悸",
+        "乏力",
+        "面色苍白",
+        "活动后加重"
+      ]
+    },
+    {
+      "disease": "焦虑症",
+      "key_features": [
+        "心悸",
+        "紧张不安",
+        "伴其他躯体症状",
+        "排除器质性病变"
+      ]
+    }
+  ],
+  "trigger_questions": {
+    "with_thyroid_symptoms": "有没有消瘦、多汗、手抖、脾气急躁？",
+    "with_anemia_symptoms": "有没有面色苍白、乏力、头晕？",
+    "with_exercise": "活动后心悸加重吗？"
+  },
+  "emergency_criteria": [
+    "心悸伴晕厥",
+    "心悸伴胸痛",
+    "心悸伴血流动力学不稳定"
+  ]
+}

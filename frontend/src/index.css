@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-sidebar: #f9fafb;
+  --color-sidebar-dark: #1a1a2e;
+  --color-main-bg: #ffffff;
+  --color-main-bg-dark: #16163a;
+  --color-bubble-user: #3b82f6;
+  --color-bubble-user-dark: #4f46e5;
+  --color-bubble-ai: #f3f4f6;
+  --color-bubble-ai-dark: #252550;
+  --color-border-light: #e5e7eb;
+  --color-border-dark: #2a2a5a;
+}
+
+/* Base scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+.dark ::-webkit-scrollbar-thumb { background: #3a3a6a; }
+.dark ::-webkit-scrollbar-thumb:hover { background: #5a5a8a; }
+
+/* Markdown content inside chat bubbles */
+.markdown-body h1 { font-size: 1.4em; font-weight: 700; margin: 0.6em 0 0.3em; }
+.markdown-body h2 { font-size: 1.2em; font-weight: 700; margin: 0.5em 0 0.25em; }
+.markdown-body h3 { font-size: 1.05em; font-weight: 600; margin: 0.4em 0 0.2em; }
+.markdown-body p { margin: 0.25em 0; }
+.markdown-body ul, .markdown-body ol { padding-left: 1.5em; margin: 0.25em 0; }
+.markdown-body li { margin: 0.1em 0; }
+.markdown-body code { background: rgba(0,0,0,0.08); padding: 0.1em 0.3em; border-radius: 3px; font-size: 0.9em; }
+.dark .markdown-body code { background: rgba(255,255,255,0.1); }
+.markdown-body pre { background: #1e1e2e; color: #cdd6f4; padding: 0.8em; border-radius: 8px; overflow-x: auto; margin: 0.5em 0; }
+.markdown-body pre code { background: none; padding: 0; font-size: 0.85em; }
+.markdown-body blockquote { border-left: 3px solid #3b82f6; padding-left: 0.8em; margin: 0.4em 0; color: #6b7280; }
+.dark .markdown-body blockquote { border-left-color: #6366f1; color: #9ca3af; }
+.markdown-body table { border-collapse: collapse; width: 100%; margin: 0.5em 0; }
+.markdown-body th, .markdown-body td { border: 1px solid #d1d5db; padding: 0.3em 0.6em; text-align: left; }
+.dark .markdown-body th, .dark .markdown-body td { border-color: #3a3a6a; }
+.markdown-body th { background: #f3f4f6; font-weight: 600; }
+.dark .markdown-body th { background: #252550; }
+.markdown-body strong { font-weight: 600; color: #1f2937; }
+.dark .markdown-body strong { color: #e5e7eb; }
+.markdown-body hr { border: none; border-top: 1px solid #e5e7eb; margin: 0.8em 0; }
+.dark .markdown-body hr { border-color: #2a2a5a; }
+
+/* Typing animation */
+@keyframes typing-dot { 0%, 60%, 100% { transform: translateY(0); opacity: 0.3; } 30% { transform: translateY(-6px); opacity: 1; } }
+.typing-dot { animation: typing-dot 1.4s infinite ease-in-out; }
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+/* Stream cursor */
+@keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+.stream-cursor::after { content: '▍'; animation: blink 1s infinite; color: #3b82f6; }
+
+/* Fade in animation for new messages */
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.message-enter { animation: fadeInUp 0.3s ease-out; }
