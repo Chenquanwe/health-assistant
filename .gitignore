@@ -1,0 +1,55 @@
+# ================ Python 编译缓存 ================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ================ 环境变量文件 ================
+.env
+.env.local
+.env.*.local
+
+# ================ 日志文件 ================
+*.log
+
+# ================ IDE 配置 ================
+.idea/
+.vscode/
+.claude/
+*.iml
+.project
+.classpath
+.settings/
+
+# ================ 用户上传的文件 ================
+backend/uploads/
+
+# ================ 前端构建产物 ================
+frontend/dist/
+frontend/node_modules/
+
+# ================ 测试数据 ================
+test_data/
+
+# ================ 临时文件 ================
+1.md
+2.md
+
+# ================ 废弃的测试/调试脚本 ================
+backend/test_*.py
+backend/debug_messages.py
+backend/remove_bom.py
+backend/clear_history.py
+
+# ================ Docker ================
+docker-compose.override.yml
+
+# ================ 系统文件 ================
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
