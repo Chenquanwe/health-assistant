@@ -8,7 +8,13 @@
 
 智能健康助手是一个面向在线医疗问诊、健康咨询、体检报告解读和医学知识管理场景的 AI 系统，通过模拟全科医生的问诊流程，帮助用户进行初步健康咨询和症状评估。系统融合了多轮问诊采集症状、知识库检索增强回答、语音输入/播报、自动生成健康报告等核心功能，旨在帮助用户快速获取初步健康评估，减轻医生咨询压力；同时提供可追溯的 AI 思考过程，增强用户信任感；支持用户自定义医学知识库，提升回答的专业性和针对性。技术上采用 ReAct Agent 模式实现智能决策、RAG 检索增强提升回答准确性、WebSocket 实时流式对话保证流畅交互、Docker 容器化部署简化运维。
 
-### 核心能力
+## 项目截图
+
+| 问诊界面 | 知识库管理 |
+|---------|-----------|
+| ![问诊界面](screenshots/chat.png) | ![知识库管理](screenshots/knowledge.png) |
+
+## 核心能力
 
 - **多轮问诊**：采用 ReAct Agent 模式，基于 SOCRATES 医学框架逐项采集部位、时间、性质、严重程度等信息，自动生成结构化问诊记录
 - **知识库管理**：支持上传 PDF、DOCX、MD、TXT、PNG、JPG 等格式的医学文档，自动分块、生成 Embedding 并存入 pgvector 向量数据库，问诊时 AI 可检索引用；用户可在前端上传、删除、查看医学文档
@@ -131,7 +137,8 @@ npm run dev
 # 前端页面: http://localhost:5173
 ```
 
-**注意**：首次启动时，数据库会自动初始化，可能需要等待 30 秒。
+**注意**：首次启动时，数据库表结构会自动创建。如遇到"relation does not exist"错误，可手动执行以下命令初始化数据库：
+  docker exec -it health-assistant-backend-1 python -c "from database import sync_engine; from models.base import Base; Base.metadata.create_all(bind=sync_engine); print('建表完成')"
 
 ### 方式二：手动部署
 

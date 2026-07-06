@@ -1,0 +1,1 @@
+请将项目截图命名为 chat.png 和 knowledge.png 放入此文件夹
